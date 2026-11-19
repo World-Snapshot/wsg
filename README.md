@@ -205,6 +205,12 @@ In a historical pose-domain measurement, 12 GB of source data produced 382 GB of
 
 ## License
 
+**In short:** You may use and modify these materials for noncommercial
+research, development, and training. Commercial use requires separate
+permission from Rutgers; contact `compliance@research.rutgers.edu` and
+reference Rutgers Docket #2027-020. The [LICENSE](LICENSE) file contains the
+governing terms.
+
 The original WSG/WSV format implementation, registry, normalization,
 serialization, reader/writer code, and documentation in this repository are
 released under the [WSM Non-commercial Research License](LICENSE). Use is
