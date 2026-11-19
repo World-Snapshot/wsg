@@ -1,0 +1,23 @@
+# MonST3R requirements
+torch
+torchvision
+roma
+matplotlib
+tqdm
+opencv-python
+scipy
+sympy
+einops
+gdown
+trimesh
+pyglet<2
+huggingface-hub[torch]>=0.22
+
+# for camera trajectory
+evo
+
+# Additional dependencies that might be needed
+numpy
+pillow
+imageio
+scikit-image

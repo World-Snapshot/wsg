@@ -1,0 +1,8 @@
+bpy
+tqdm
+psutil
+Pillow
+matplotlib
+pandas
+pyarrow
+datasets

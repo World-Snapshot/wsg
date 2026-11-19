@@ -1,0 +1,71 @@
+history
+input_history
+input/ASLLRP
+main/checkpoints
+main/history_tool
+output_history
+output/main
+pretrained_models/
+main/models
+*.tar
+*.pyc
+*.pkl
+*.zip
+*.pt2
+*.onnx
+*.pth
+*.ptmaker/main/checkpoints/*.onnx
+main/checkpoints/*.ckpt
+output/AVIS_full
+output/MMFi_full
+output/ASLLRP_results
+output/RealCam-Vid_results
+output/Articulation_results
+output/AVIS_test_results
+output/AVIS_train_results
+output/AVIS_val_results
+output/MMFi_Dataset_results
+output/ShapeNetSem_results
+output/MatSynth_results
+output/XPose_results
+output/PoseAnything_MP100
+main/upload_*.log
+debug
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+*.swp
+*~
+
+# Large datasets (symlinks) - Git will track symlinks but not their targets
+input/dynpose-100k
+input/OpenVidHD
+output/Articulation-XL_small
+output/AVIS_small
+output/OpenVidHD-camera_results
+output/ASLLRP_results
+
+# Real directories that ARE tracked by git
+# input/test_dataset/
+# output/test_dataset_results/
+
+# Temporary clearance
+output/RealCam-Vid-test-64_results
+output/RealCam-Vid-test-256_results
+output/camp

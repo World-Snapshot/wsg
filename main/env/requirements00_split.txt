@@ -1,0 +1,7 @@
+einops
+ffmpeg
+av
+torch
+numpy
+torchvision
+einops

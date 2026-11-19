@@ -1,0 +1,8 @@
+easy_dwpose==1.0.1
+ffmpeg
+torch
+torchvision
+einops
+numpy==1.23.1
+onnxruntime-gpu==1.19.2
+torch==1.12.0+cu113                  

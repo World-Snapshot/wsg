@@ -1,0 +1,46 @@
+AVIS Category ID Mapping
+========================
+
+This file documents the AVIS category ids used by the AVIS train/val/test
+annotation JSON files. Pipeline 29 writes these integer category ids into
+WSG/WSV channel 195 inside each AVIS instance mask.
+
+Channel 195 semantics after pipeline29:
+
+- -1: no AVIS instance / invalid background
+- positive integer: AVIS semantic category id for the instance covering that pixel
+
+Important note:
+
+Channel 195 is a semantic category map, not an instance-id map. If two people
+are visible in the same frame, both person regions are written as category id 1.
+The channel does not distinguish "person 0" from "person 1".
+
+Category ids:
+
+1: person
+2: violin
+3: guitar
+4: cello
+5: flute
+6: piano
+7: ukulele
+8: accordion
+9: guzheng
+10: clarinet
+11: cat
+12: car
+13: saxophone
+14: dog
+15: lawn_mover
+16: tuba
+17: banjo
+18: pipa
+19: bassoon
+20: airplane
+21: tree_harvester
+22: trumpet
+23: lion
+24: bass
+25: erhu
+26: horse

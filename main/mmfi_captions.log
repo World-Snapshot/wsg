@@ -1,0 +1,2170 @@
+
+============================================================
+MMFi Frame Caption Generator
+============================================================
+Dataset path: /research/cbim/vast/sf895/code/wsg/output/MMFi_Dataset_results
+Output CSV: /research/cbim/vast/sf895/code/wsg/output/MMFi_Dataset_results/frame_captions.csv
+Number of frames per caption: 1
+Skip existing: True
+============================================================
+
+Found 1080 experiments in MMFi_Dataset_results
+Found 5 existing captions
+Processing experiments:   0%|          | 0/1080 [00:00<?, ?it/s]Processing experiments:   1%|          | 6/1080 [00:03<11:54,  1.50it/s]Processing experiments:   1%|          | 7/1080 [00:07<22:43,  1.27s/it]Processing experiments:   1%|          | 8/1080 [00:11<32:47,  1.84s/it]Processing experiments:   1%|          | 9/1080 [00:15<40:52,  2.29s/it]Processing experiments:   1%|          | 10/1080 [00:19<46:36,  2.61s/it]Processing experiments:   1%|          | 11/1080 [00:22<51:17,  2.88s/it]Processing experiments:   1%|          | 12/1080 [00:26<56:38,  3.18s/it]Processing experiments:   1%|          | 13/1080 [00:30<1:00:51,  3.42s/it]Processing experiments:   1%|▏         | 14/1080 [00:34<1:04:27,  3.63s/it]Processing experiments:   1%|▏         | 15/1080 [00:38<1:05:01,  3.66s/it]Processing experiments:   1%|▏         | 16/1080 [00:42<1:05:50,  3.71s/it]Processing experiments:   2%|▏         | 17/1080 [00:46<1:06:16,  3.74s/it]Processing experiments:   2%|▏         | 18/1080 [00:50<1:06:59,  3.78s/it]Processing experiments:   2%|▏         | 19/1080 [00:54<1:07:36,  3.82s/it]Processing experiments:   2%|▏         | 20/1080 [00:57<1:06:32,  3.77s/it]Processing experiments:   2%|▏         | 21/1080 [01:01<1:06:59,  3.80s/it]Processing experiments:   2%|▏         | 22/1080 [01:05<1:06:32,  3.77s/it]Processing experiments:   2%|▏         | 23/1080 [01:09<1:06:37,  3.78s/it]Processing experiments:   2%|▏         | 24/1080 [01:12<1:05:54,  3.74s/it]Processing experiments:   2%|▏         | 25/1080 [01:16<1:06:24,  3.78s/it]Processing experiments:   2%|▏         | 26/1080 [01:20<1:05:43,  3.74s/it]Processing experiments:   2%|▎         | 27/1080 [01:23<1:04:47,  3.69s/it]Processing experiments:   3%|▎         | 28/1080 [01:27<1:05:20,  3.73s/it]Processing experiments:   3%|▎         | 29/1080 [01:31<1:04:03,  3.66s/it]Processing experiments:   3%|▎         | 30/1080 [01:34<1:04:34,  3.69s/it]Processing experiments:   3%|▎         | 31/1080 [01:38<1:04:18,  3.68s/it]Processing experiments:   3%|▎         | 32/1080 [01:42<1:04:20,  3.68s/it]Processing experiments:   3%|▎         | 33/1080 [01:46<1:05:38,  3.76s/it]Processing experiments:   3%|▎         | 34/1080 [01:49<1:05:56,  3.78s/it]Processing experiments:   3%|▎         | 35/1080 [01:54<1:07:33,  3.88s/it]Processing experiments:   3%|▎         | 36/1080 [01:57<1:07:31,  3.88s/it]Processing experiments:   3%|▎         | 37/1080 [02:01<1:07:38,  3.89s/it]Processing experiments:   4%|▎         | 38/1080 [02:05<1:06:23,  3.82s/it]Processing experiments:   4%|▎         | 39/1080 [02:09<1:05:28,  3.77s/it]Processing experiments:   4%|▎         | 40/1080 [02:12<1:05:09,  3.76s/it]Processing experiments:   4%|▍         | 41/1080 [02:16<1:04:52,  3.75s/it]Processing experiments:   4%|▍         | 42/1080 [02:20<1:06:21,  3.84s/it]Processing experiments:   4%|▍         | 43/1080 [02:24<1:07:04,  3.88s/it]Processing experiments:   4%|▍         | 44/1080 [02:28<1:05:58,  3.82s/it]Processing experiments:   4%|▍         | 45/1080 [02:31<1:04:16,  3.73s/it]Processing experiments:   4%|▍         | 46/1080 [02:35<1:04:30,  3.74s/it]Processing experiments:   4%|▍         | 47/1080 [02:39<1:04:18,  3.74s/it]Processing experiments:   4%|▍         | 48/1080 [02:43<1:04:57,  3.78s/it]Processing experiments:   5%|▍         | 49/1080 [02:46<1:03:52,  3.72s/it]Processing experiments:   5%|▍         | 50/1080 [02:50<1:05:19,  3.81s/it]Processing experiments:   5%|▍         | 51/1080 [02:54<1:05:29,  3.82s/it]Processing experiments:   5%|▍         | 52/1080 [02:58<1:06:43,  3.89s/it]Processing experiments:   5%|▍         | 53/1080 [03:02<1:06:00,  3.86s/it]Processing experiments:   5%|▌         | 54/1080 [03:05<1:03:15,  3.70s/it]Processing experiments:   5%|▌         | 55/1080 [03:09<1:05:26,  3.83s/it]Processing experiments:   5%|▌         | 56/1080 [03:13<1:04:16,  3.77s/it]Processing experiments:   5%|▌         | 57/1080 [03:17<1:06:12,  3.88s/it]Processing experiments:   5%|▌         | 58/1080 [03:21<1:07:09,  3.94s/it]Processing experiments:   5%|▌         | 59/1080 [03:25<1:07:42,  3.98s/it]Processing experiments:   6%|▌         | 60/1080 [03:29<1:06:42,  3.92s/it]Processing experiments:   6%|▌         | 61/1080 [03:33<1:06:19,  3.91s/it]Processing experiments:   6%|▌         | 62/1080 [03:37<1:06:49,  3.94s/it]Processing experiments:   6%|▌         | 63/1080 [03:41<1:05:16,  3.85s/it]Processing experiments:   6%|▌         | 64/1080 [03:45<1:08:12,  4.03s/it]Processing experiments:   6%|▌         | 65/1080 [03:49<1:06:42,  3.94s/it]Processing experiments:   6%|▌         | 66/1080 [03:53<1:06:35,  3.94s/it]Processing experiments:   6%|▌         | 67/1080 [03:57<1:06:25,  3.93s/it]Processing experiments:   6%|▋         | 68/1080 [04:01<1:05:40,  3.89s/it]Processing experiments:   6%|▋         | 69/1080 [04:05<1:06:06,  3.92s/it]Processing experiments:   6%|▋         | 70/1080 [04:09<1:07:46,  4.03s/it]Processing experiments:   7%|▋         | 71/1080 [04:13<1:07:48,  4.03s/it]Processing experiments:   7%|▋         | 72/1080 [04:17<1:08:04,  4.05s/it]Processing experiments:   7%|▋         | 73/1080 [04:21<1:07:07,  4.00s/it]Processing experiments:   7%|▋         | 74/1080 [04:25<1:08:19,  4.07s/it]Processing experiments:   7%|▋         | 75/1080 [04:29<1:07:55,  4.06s/it]Processing experiments:   7%|▋         | 76/1080 [04:33<1:08:25,  4.09s/it]Processing experiments:   7%|▋         | 77/1080 [04:37<1:07:53,  4.06s/it]Processing experiments:   7%|▋         | 78/1080 [04:41<1:05:49,  3.94s/it]Processing experiments:   7%|▋         | 79/1080 [04:45<1:05:43,  3.94s/it]Processing experiments:   7%|▋         | 80/1080 [04:49<1:04:49,  3.89s/it]Processing experiments:   8%|▊         | 81/1080 [04:52<1:04:04,  3.85s/it]Processing experiments:   8%|▊         | 82/1080 [04:56<1:04:01,  3.85s/it]Processing experiments:   8%|▊         | 83/1080 [05:00<1:03:59,  3.85s/it]Processing experiments:   8%|▊         | 84/1080 [05:04<1:04:27,  3.88s/it]Processing experiments:   8%|▊         | 85/1080 [05:08<1:06:38,  4.02s/it]Processing experiments:   8%|▊         | 86/1080 [05:12<1:05:42,  3.97s/it]Processing experiments:   8%|▊         | 87/1080 [05:16<1:04:58,  3.93s/it]Processing experiments:   8%|▊         | 88/1080 [05:20<1:04:09,  3.88s/it]Processing experiments:   8%|▊         | 89/1080 [05:23<1:02:58,  3.81s/it]Processing experiments:   8%|▊         | 90/1080 [05:27<1:01:20,  3.72s/it]Processing experiments:   8%|▊         | 91/1080 [05:31<1:01:28,  3.73s/it]Processing experiments:   9%|▊         | 92/1080 [05:35<1:02:33,  3.80s/it]Processing experiments:   9%|▊         | 93/1080 [05:39<1:03:14,  3.84s/it]Processing experiments:   9%|▊         | 94/1080 [05:42<1:02:52,  3.83s/it]Processing experiments:   9%|▉         | 95/1080 [05:46<1:02:18,  3.80s/it]Processing experiments:   9%|▉         | 96/1080 [05:50<1:04:41,  3.95s/it]Processing experiments:   9%|▉         | 97/1080 [05:54<1:02:40,  3.83s/it]Processing experiments:   9%|▉         | 98/1080 [05:58<1:02:46,  3.84s/it]Processing experiments:   9%|▉         | 99/1080 [06:01<1:01:30,  3.76s/it]Processing experiments:   9%|▉         | 100/1080 [06:05<1:01:06,  3.74s/it]Processing experiments:   9%|▉         | 101/1080 [06:09<1:01:38,  3.78s/it]Processing experiments:   9%|▉         | 102/1080 [06:13<1:02:27,  3.83s/it]Processing experiments:  10%|▉         | 103/1080 [06:17<1:04:23,  3.95s/it]Processing experiments:  10%|▉         | 104/1080 [06:21<1:02:35,  3.85s/it]Processing experiments:  10%|▉         | 105/1080 [06:25<1:01:50,  3.81s/it]Processing experiments:  10%|▉         | 106/1080 [06:28<1:02:30,  3.85s/it]Processing experiments:  10%|▉         | 107/1080 [06:32<1:01:55,  3.82s/it]Processing experiments:  10%|█         | 108/1080 [06:36<1:00:59,  3.77s/it]Processing experiments:  10%|█         | 109/1080 [06:40<1:00:39,  3.75s/it]Processing experiments:  10%|█         | 110/1080 [06:43<1:00:47,  3.76s/it]Processing experiments:  10%|█         | 111/1080 [06:47<59:28,  3.68s/it]  Processing experiments:  10%|█         | 112/1080 [06:51<59:43,  3.70s/it]Processing experiments:  10%|█         | 113/1080 [06:55<1:01:55,  3.84s/it]Processing experiments:  11%|█         | 114/1080 [06:59<1:02:39,  3.89s/it]Processing experiments:  11%|█         | 115/1080 [07:02<1:01:31,  3.83s/it]Processing experiments:  11%|█         | 116/1080 [07:06<1:01:32,  3.83s/it]Processing experiments:  11%|█         | 117/1080 [07:10<1:02:49,  3.91s/it]Processing experiments:  11%|█         | 118/1080 [07:14<1:00:28,  3.77s/it]Processing experiments:  11%|█         | 119/1080 [07:18<1:00:35,  3.78s/it]Processing experiments:  11%|█         | 120/1080 [07:22<1:01:07,  3.82s/it]Processing experiments:  11%|█         | 121/1080 [07:25<59:41,  3.73s/it]  Processing experiments:  11%|█▏        | 122/1080 [07:29<59:25,  3.72s/it]Processing experiments:  11%|█▏        | 123/1080 [07:33<59:54,  3.76s/it]Processing experiments:  11%|█▏        | 124/1080 [07:37<1:03:29,  3.99s/it]Processing experiments:  12%|█▏        | 125/1080 [07:41<1:04:34,  4.06s/it]Processing experiments:  12%|█▏        | 126/1080 [07:45<1:02:32,  3.93s/it]Processing experiments:  12%|█▏        | 127/1080 [07:49<1:02:09,  3.91s/it]Processing experiments:  12%|█▏        | 128/1080 [07:52<1:00:26,  3.81s/it]Processing experiments:  12%|█▏        | 129/1080 [07:56<59:00,  3.72s/it]  Processing experiments:  12%|█▏        | 130/1080 [08:00<59:12,  3.74s/it]Processing experiments:  12%|█▏        | 131/1080 [08:04<59:52,  3.79s/it]Processing experiments:  12%|█▏        | 132/1080 [08:07<59:02,  3.74s/it]Processing experiments:  12%|█▏        | 133/1080 [08:11<59:31,  3.77s/it]Processing experiments:  12%|█▏        | 134/1080 [08:15<59:16,  3.76s/it]Processing experiments:  12%|█▎        | 135/1080 [08:18<57:53,  3.68s/it]Processing experiments:  13%|█▎        | 136/1080 [08:22<57:44,  3.67s/it]Processing experiments:  13%|█▎        | 137/1080 [08:26<58:58,  3.75s/it]Processing experiments:  13%|█▎        | 138/1080 [08:30<58:11,  3.71s/it]Processing experiments:  13%|█▎        | 139/1080 [08:33<56:40,  3.61s/it]Processing experiments:  13%|█▎        | 140/1080 [08:37<57:40,  3.68s/it]Processing experiments:  13%|█▎        | 141/1080 [08:41<58:13,  3.72s/it]Processing experiments:  13%|█▎        | 142/1080 [08:44<57:08,  3.66s/it]Processing experiments:  13%|█▎        | 143/1080 [08:48<57:54,  3.71s/it]Processing experiments:  13%|█▎        | 144/1080 [08:52<57:25,  3.68s/it]Processing experiments:  13%|█▎        | 145/1080 [08:55<57:55,  3.72s/it]Processing experiments:  14%|█▎        | 146/1080 [08:59<57:23,  3.69s/it]Processing experiments:  14%|█▎        | 147/1080 [09:03<57:07,  3.67s/it]Processing experiments:  14%|█▎        | 148/1080 [09:06<58:13,  3.75s/it]Processing experiments:  14%|█▍        | 149/1080 [09:10<58:25,  3.76s/it]Processing experiments:  14%|█▍        | 150/1080 [09:14<58:14,  3.76s/it]Processing experiments:  14%|█▍        | 151/1080 [09:17<56:28,  3.65s/it]Processing experiments:  14%|█▍        | 152/1080 [09:21<55:09,  3.57s/it]Processing experiments:  14%|█▍        | 153/1080 [09:24<54:20,  3.52s/it]Processing experiments:  14%|█▍        | 154/1080 [09:28<55:19,  3.58s/it]Processing experiments:  14%|█▍        | 155/1080 [09:32<56:40,  3.68s/it]Processing experiments:  14%|█▍        | 156/1080 [09:35<56:27,  3.67s/it]Processing experiments:  15%|█▍        | 157/1080 [09:39<57:51,  3.76s/it]Processing experiments:  15%|█▍        | 158/1080 [09:43<57:24,  3.74s/it]Processing experiments:  15%|█▍        | 159/1080 [09:47<55:39,  3.63s/it]Processing experiments:  15%|█▍        | 160/1080 [09:50<54:59,  3.59s/it]Processing experiments:  15%|█▍        | 161/1080 [09:54<55:25,  3.62s/it]Processing experiments:  15%|█▌        | 162/1080 [09:57<56:00,  3.66s/it]Processing experiments:  15%|█▌        | 163/1080 [10:01<57:19,  3.75s/it]Processing experiments:  15%|█▌        | 164/1080 [10:05<57:43,  3.78s/it]Processing experiments:  15%|█▌        | 165/1080 [10:09<56:40,  3.72s/it]Processing experiments:  15%|█▌        | 166/1080 [10:13<57:05,  3.75s/it]Processing experiments:  15%|█▌        | 167/1080 [10:16<55:09,  3.62s/it]Processing experiments:  16%|█▌        | 168/1080 [10:20<55:18,  3.64s/it]Processing experiments:  16%|█▌        | 169/1080 [10:23<54:23,  3.58s/it]Processing experiments:  16%|█▌        | 170/1080 [10:27<53:44,  3.54s/it]Processing experiments:  16%|█▌        | 171/1080 [10:30<54:40,  3.61s/it]Processing experiments:  16%|█▌        | 172/1080 [10:34<55:44,  3.68s/it]Processing experiments:  16%|█▌        | 173/1080 [10:38<55:36,  3.68s/it]Processing experiments:  16%|█▌        | 174/1080 [10:41<54:15,  3.59s/it]Processing experiments:  16%|█▌        | 175/1080 [10:45<55:23,  3.67s/it]Processing experiments:  16%|█▋        | 176/1080 [10:49<55:16,  3.67s/it]Processing experiments:  16%|█▋        | 177/1080 [10:52<55:04,  3.66s/it]Processing experiments:  16%|█▋        | 178/1080 [10:56<56:26,  3.75s/it]Processing experiments:  17%|█▋        | 179/1080 [11:00<55:31,  3.70s/it]Processing experiments:  17%|█▋        | 180/1080 [11:03<53:53,  3.59s/it]Processing experiments:  17%|█▋        | 181/1080 [11:07<54:08,  3.61s/it]Processing experiments:  17%|█▋        | 182/1080 [11:11<56:07,  3.75s/it]Processing experiments:  17%|█▋        | 183/1080 [11:15<56:31,  3.78s/it]Processing experiments:  17%|█▋        | 184/1080 [11:19<56:26,  3.78s/it]Processing experiments:  17%|█▋        | 185/1080 [11:22<56:01,  3.76s/it]Processing experiments:  17%|█▋        | 186/1080 [11:26<55:35,  3.73s/it]Processing experiments:  17%|█▋        | 187/1080 [11:30<55:03,  3.70s/it]Processing experiments:  17%|█▋        | 188/1080 [11:33<53:53,  3.63s/it]Processing experiments:  18%|█▊        | 189/1080 [11:37<54:27,  3.67s/it]Processing experiments:  18%|█▊        | 190/1080 [11:40<54:12,  3.65s/it]Processing experiments:  18%|█▊        | 191/1080 [11:44<54:17,  3.66s/it]Processing experiments:  18%|█▊        | 192/1080 [11:48<53:54,  3.64s/it]Processing experiments:  18%|█▊        | 193/1080 [11:51<53:18,  3.61s/it]Processing experiments:  18%|█▊        | 194/1080 [11:55<54:26,  3.69s/it]Processing experiments:  18%|█▊        | 195/1080 [11:59<55:22,  3.75s/it]Processing experiments:  18%|█▊        | 196/1080 [12:03<54:05,  3.67s/it]Processing experiments:  18%|█▊        | 197/1080 [12:06<54:17,  3.69s/it]Processing experiments:  18%|█▊        | 198/1080 [12:10<55:04,  3.75s/it]Processing experiments:  18%|█▊        | 199/1080 [12:14<54:21,  3.70s/it]Processing experiments:  19%|█▊        | 200/1080 [12:17<53:46,  3.67s/it]Processing experiments:  19%|█▊        | 201/1080 [12:21<53:37,  3.66s/it]Processing experiments:  19%|█▊        | 202/1080 [12:25<52:58,  3.62s/it]Processing experiments:  19%|█▉        | 203/1080 [12:28<52:43,  3.61s/it]Processing experiments:  19%|█▉        | 204/1080 [12:32<53:39,  3.67s/it]Processing experiments:  19%|█▉        | 205/1080 [12:36<54:16,  3.72s/it]Processing experiments:  19%|█▉        | 206/1080 [12:39<52:56,  3.63s/it]Processing experiments:  19%|█▉        | 207/1080 [12:43<53:13,  3.66s/it]Processing experiments:  19%|█▉        | 208/1080 [12:46<51:52,  3.57s/it]Processing experiments:  19%|█▉        | 209/1080 [12:50<51:28,  3.55s/it]Processing experiments:  19%|█▉        | 210/1080 [12:53<51:28,  3.55s/it]Processing experiments:  20%|█▉        | 211/1080 [12:57<52:18,  3.61s/it]Processing experiments:  20%|█▉        | 212/1080 [13:01<51:37,  3.57s/it]Processing experiments:  20%|█▉        | 213/1080 [13:04<51:06,  3.54s/it]Processing experiments:  20%|█▉        | 214/1080 [13:08<52:24,  3.63s/it]Processing experiments:  20%|█▉        | 215/1080 [13:12<53:50,  3.74s/it]Processing experiments:  20%|██        | 216/1080 [13:15<53:09,  3.69s/it]Processing experiments:  20%|██        | 217/1080 [13:19<52:34,  3.66s/it]Processing experiments:  20%|██        | 218/1080 [13:23<52:38,  3.66s/it]Processing experiments:  20%|██        | 219/1080 [13:26<51:44,  3.61s/it]Processing experiments:  20%|██        | 220/1080 [13:30<51:23,  3.59s/it]Processing experiments:  20%|██        | 221/1080 [13:33<51:31,  3.60s/it]Processing experiments:  21%|██        | 222/1080 [13:37<52:00,  3.64s/it]Processing experiments:  21%|██        | 223/1080 [13:41<52:10,  3.65s/it]Processing experiments:  21%|██        | 224/1080 [13:45<52:48,  3.70s/it]Processing experiments:  21%|██        | 225/1080 [13:48<52:16,  3.67s/it]Processing experiments:  21%|██        | 226/1080 [13:52<52:15,  3.67s/it]Processing experiments:  21%|██        | 227/1080 [13:56<52:50,  3.72s/it]Processing experiments:  21%|██        | 228/1080 [13:59<53:09,  3.74s/it]Processing experiments:  21%|██        | 229/1080 [14:03<52:16,  3.69s/it]Processing experiments:  21%|██▏       | 230/1080 [14:07<52:31,  3.71s/it]Processing experiments:  21%|██▏       | 231/1080 [14:11<52:57,  3.74s/it]Processing experiments:  21%|██▏       | 232/1080 [14:14<51:45,  3.66s/it]Processing experiments:  22%|██▏       | 233/1080 [14:18<51:08,  3.62s/it]Processing experiments:  22%|██▏       | 234/1080 [14:21<52:00,  3.69s/it]Processing experiments:  22%|██▏       | 235/1080 [14:25<51:37,  3.67s/it]Processing experiments:  22%|██▏       | 236/1080 [14:29<51:34,  3.67s/it]Processing experiments:  22%|██▏       | 237/1080 [14:32<50:37,  3.60s/it]Processing experiments:  22%|██▏       | 238/1080 [14:36<49:59,  3.56s/it]Processing experiments:  22%|██▏       | 239/1080 [14:39<50:33,  3.61s/it]Processing experiments:  22%|██▏       | 240/1080 [14:43<50:58,  3.64s/it]Processing experiments:  22%|██▏       | 241/1080 [14:47<50:43,  3.63s/it]Processing experiments:  22%|██▏       | 242/1080 [14:50<50:23,  3.61s/it]Processing experiments:  22%|██▎       | 243/1080 [14:54<50:56,  3.65s/it]Processing experiments:  23%|██▎       | 244/1080 [14:58<50:19,  3.61s/it]Processing experiments:  23%|██▎       | 245/1080 [15:01<51:33,  3.71s/it]Processing experiments:  23%|██▎       | 246/1080 [15:05<51:57,  3.74s/it]Processing experiments:  23%|██▎       | 247/1080 [15:09<51:54,  3.74s/it]Processing experiments:  23%|██▎       | 248/1080 [15:13<52:53,  3.81s/it]Processing experiments:  23%|██▎       | 249/1080 [15:16<51:28,  3.72s/it]Processing experiments:  23%|██▎       | 250/1080 [15:20<51:48,  3.74s/it]Processing experiments:  23%|██▎       | 251/1080 [15:24<50:44,  3.67s/it]Processing experiments:  23%|██▎       | 252/1080 [15:27<49:43,  3.60s/it]Processing experiments:  23%|██▎       | 253/1080 [15:31<49:24,  3.58s/it]Processing experiments:  24%|██▎       | 254/1080 [15:35<50:13,  3.65s/it]Processing experiments:  24%|██▎       | 255/1080 [15:38<50:29,  3.67s/it]Processing experiments:  24%|██▎       | 256/1080 [15:42<50:16,  3.66s/it]Processing experiments:  24%|██▍       | 257/1080 [15:45<49:49,  3.63s/it]Processing experiments:  24%|██▍       | 258/1080 [15:49<49:46,  3.63s/it]Processing experiments:  24%|██▍       | 259/1080 [15:53<50:44,  3.71s/it]Processing experiments:  24%|██▍       | 260/1080 [15:57<51:10,  3.74s/it]Processing experiments:  24%|██▍       | 261/1080 [16:01<50:56,  3.73s/it]Processing experiments:  24%|██▍       | 262/1080 [16:04<49:59,  3.67s/it]Processing experiments:  24%|██▍       | 263/1080 [16:08<49:48,  3.66s/it]Processing experiments:  24%|██▍       | 264/1080 [16:12<50:37,  3.72s/it]Processing experiments:  25%|██▍       | 265/1080 [16:15<50:34,  3.72s/it]Processing experiments:  25%|██▍       | 266/1080 [16:19<50:01,  3.69s/it]Processing experiments:  25%|██▍       | 267/1080 [16:23<50:07,  3.70s/it]Processing experiments:  25%|██▍       | 268/1080 [16:26<49:10,  3.63s/it]Processing experiments:  25%|██▍       | 269/1080 [16:30<49:01,  3.63s/it]Processing experiments:  25%|██▌       | 270/1080 [16:33<48:48,  3.62s/it]Processing experiments:  25%|██▌       | 271/1080 [16:37<49:17,  3.66s/it]Processing experiments:  25%|██▌       | 272/1080 [16:41<49:53,  3.70s/it]Processing experiments:  25%|██▌       | 273/1080 [16:44<49:25,  3.68s/it]Processing experiments:  25%|██▌       | 274/1080 [16:48<50:37,  3.77s/it]Processing experiments:  25%|██▌       | 275/1080 [16:52<50:54,  3.79s/it]Processing experiments:  26%|██▌       | 276/1080 [16:56<49:56,  3.73s/it]Processing experiments:  26%|██▌       | 277/1080 [17:00<50:19,  3.76s/it]Processing experiments:  26%|██▌       | 278/1080 [17:04<51:56,  3.89s/it]Processing experiments:  26%|██▌       | 279/1080 [17:08<51:31,  3.86s/it]Processing experiments:  26%|██▌       | 280/1080 [17:12<51:20,  3.85s/it]Processing experiments:  26%|██▌       | 281/1080 [17:15<51:46,  3.89s/it]Processing experiments:  26%|██▌       | 282/1080 [17:19<51:12,  3.85s/it]Processing experiments:  26%|██▌       | 283/1080 [17:23<50:21,  3.79s/it]Processing experiments:  26%|██▋       | 284/1080 [17:27<50:08,  3.78s/it]Processing experiments:  26%|██▋       | 285/1080 [17:30<49:27,  3.73s/it]Processing experiments:  26%|██▋       | 286/1080 [17:34<49:27,  3.74s/it]Processing experiments:  27%|██▋       | 287/1080 [17:38<51:11,  3.87s/it]Processing experiments:  27%|██▋       | 288/1080 [17:42<51:30,  3.90s/it]Processing experiments:  27%|██▋       | 289/1080 [17:46<50:00,  3.79s/it]Processing experiments:  27%|██▋       | 290/1080 [17:49<49:44,  3.78s/it]Processing experiments:  27%|██▋       | 291/1080 [17:53<49:18,  3.75s/it]Processing experiments:  27%|██▋       | 292/1080 [17:57<50:16,  3.83s/it]Processing experiments:  27%|██▋       | 293/1080 [18:01<49:39,  3.79s/it]Processing experiments:  27%|██▋       | 294/1080 [18:05<49:59,  3.82s/it]Processing experiments:  27%|██▋       | 295/1080 [18:08<49:40,  3.80s/it]Processing experiments:  27%|██▋       | 296/1080 [18:12<48:23,  3.70s/it]Processing experiments:  28%|██▊       | 297/1080 [18:16<48:14,  3.70s/it]Processing experiments:  28%|██▊       | 298/1080 [18:19<47:23,  3.64s/it]Processing experiments:  28%|██▊       | 299/1080 [18:23<47:33,  3.65s/it]Processing experiments:  28%|██▊       | 300/1080 [18:27<48:00,  3.69s/it]Processing experiments:  28%|██▊       | 301/1080 [18:30<47:24,  3.65s/it]Processing experiments:  28%|██▊       | 302/1080 [18:34<47:28,  3.66s/it]Processing experiments:  28%|██▊       | 303/1080 [18:38<48:03,  3.71s/it]Processing experiments:  28%|██▊       | 304/1080 [18:41<47:59,  3.71s/it]Processing experiments:  28%|██▊       | 305/1080 [18:45<48:03,  3.72s/it]Processing experiments:  28%|██▊       | 306/1080 [18:53<1:04:01,  4.96s/it]Processing experiments:  28%|██▊       | 307/1080 [18:57<59:10,  4.59s/it]  Processing experiments:  29%|██▊       | 308/1080 [19:01<56:09,  4.36s/it]Processing experiments:  29%|██▊       | 309/1080 [19:04<54:15,  4.22s/it]Processing experiments:  29%|██▊       | 310/1080 [19:08<52:05,  4.06s/it]Processing experiments:  29%|██▉       | 311/1080 [19:12<50:52,  3.97s/it]Processing experiments:  29%|██▉       | 312/1080 [19:16<51:14,  4.00s/it]Processing experiments:  29%|██▉       | 313/1080 [19:20<50:43,  3.97s/it]Processing experiments:  29%|██▉       | 314/1080 [19:24<50:16,  3.94s/it]Processing experiments:  29%|██▉       | 315/1080 [19:28<49:36,  3.89s/it]Processing experiments:  29%|██▉       | 316/1080 [19:31<49:02,  3.85s/it]Processing experiments:  29%|██▉       | 317/1080 [19:35<48:07,  3.78s/it]Processing experiments:  29%|██▉       | 318/1080 [19:39<47:51,  3.77s/it]Processing experiments:  30%|██▉       | 319/1080 [19:43<48:22,  3.81s/it]Processing experiments:  30%|██▉       | 320/1080 [19:47<49:13,  3.89s/it]Processing experiments:  30%|██▉       | 321/1080 [19:51<49:11,  3.89s/it]Processing experiments:  30%|██▉       | 322/1080 [19:54<47:57,  3.80s/it]Processing experiments:  30%|██▉       | 323/1080 [19:58<48:02,  3.81s/it]Processing experiments:  30%|███       | 324/1080 [20:01<46:54,  3.72s/it]Processing experiments:  30%|███       | 325/1080 [20:05<46:43,  3.71s/it]Processing experiments:  30%|███       | 326/1080 [20:09<46:22,  3.69s/it]Processing experiments:  30%|███       | 327/1080 [20:13<46:54,  3.74s/it]Processing experiments:  30%|███       | 328/1080 [20:17<47:50,  3.82s/it]Processing experiments:  30%|███       | 329/1080 [20:20<47:56,  3.83s/it]Processing experiments:  31%|███       | 330/1080 [20:24<47:33,  3.80s/it]Processing experiments:  31%|███       | 331/1080 [20:28<48:36,  3.89s/it]Processing experiments:  31%|███       | 332/1080 [20:32<47:54,  3.84s/it]Processing experiments:  31%|███       | 333/1080 [20:36<47:27,  3.81s/it]Processing experiments:  31%|███       | 334/1080 [20:40<47:22,  3.81s/it]Processing experiments:  31%|███       | 335/1080 [20:44<48:39,  3.92s/it]Processing experiments:  31%|███       | 336/1080 [20:48<49:12,  3.97s/it]Processing experiments:  31%|███       | 337/1080 [20:52<48:27,  3.91s/it]Processing experiments:  31%|███▏      | 338/1080 [20:55<47:33,  3.85s/it]Processing experiments:  31%|███▏      | 339/1080 [20:59<47:29,  3.85s/it]Processing experiments:  31%|███▏      | 340/1080 [21:03<47:33,  3.86s/it]Processing experiments:  32%|███▏      | 341/1080 [21:07<46:58,  3.81s/it]Processing experiments:  32%|███▏      | 342/1080 [21:10<46:03,  3.74s/it]Processing experiments:  32%|███▏      | 343/1080 [21:14<46:06,  3.75s/it]Processing experiments:  32%|███▏      | 344/1080 [21:18<46:24,  3.78s/it]Processing experiments:  32%|███▏      | 345/1080 [21:24<55:58,  4.57s/it]Processing experiments:  32%|███▏      | 346/1080 [21:28<52:16,  4.27s/it]Processing experiments:  32%|███▏      | 347/1080 [21:32<50:01,  4.10s/it]Processing experiments:  32%|███▏      | 348/1080 [21:35<48:22,  3.97s/it]Processing experiments:  32%|███▏      | 349/1080 [21:39<47:39,  3.91s/it]Processing experiments:  32%|███▏      | 350/1080 [21:43<47:21,  3.89s/it]Processing experiments:  32%|███▎      | 351/1080 [21:47<47:37,  3.92s/it]Processing experiments:  33%|███▎      | 352/1080 [21:51<49:20,  4.07s/it]Processing experiments:  33%|███▎      | 353/1080 [21:55<47:36,  3.93s/it]Processing experiments:  33%|███▎      | 354/1080 [21:59<47:59,  3.97s/it]Processing experiments:  33%|███▎      | 355/1080 [22:03<47:47,  3.95s/it]Processing experiments:  33%|███▎      | 356/1080 [22:07<48:25,  4.01s/it]Processing experiments:  33%|███▎      | 357/1080 [22:11<48:11,  4.00s/it]Processing experiments:  33%|███▎      | 358/1080 [22:15<47:13,  3.92s/it]Processing experiments:  33%|███▎      | 359/1080 [22:19<46:34,  3.88s/it]Processing experiments:  33%|███▎      | 360/1080 [22:23<46:47,  3.90s/it]Processing experiments:  33%|███▎      | 361/1080 [22:26<46:31,  3.88s/it]Processing experiments:  34%|███▎      | 362/1080 [22:30<45:21,  3.79s/it]Processing experiments:  34%|███▎      | 363/1080 [22:34<45:22,  3.80s/it]Processing experiments:  34%|███▎      | 364/1080 [22:38<45:46,  3.84s/it]Processing experiments:  34%|███▍      | 365/1080 [22:42<45:43,  3.84s/it]Processing experiments:  34%|███▍      | 366/1080 [22:45<45:37,  3.83s/it]Processing experiments:  34%|███▍      | 367/1080 [22:49<46:09,  3.88s/it]Processing experiments:  34%|███▍      | 368/1080 [22:53<46:32,  3.92s/it]Processing experiments:  34%|███▍      | 369/1080 [22:57<45:10,  3.81s/it]Processing experiments:  34%|███▍      | 370/1080 [23:01<47:14,  3.99s/it]Processing experiments:  34%|███▍      | 371/1080 [23:05<46:20,  3.92s/it]Processing experiments:  34%|███▍      | 372/1080 [23:09<46:29,  3.94s/it]Processing experiments:  35%|███▍      | 373/1080 [23:13<46:22,  3.94s/it]Processing experiments:  35%|███▍      | 374/1080 [23:17<45:18,  3.85s/it]Processing experiments:  35%|███▍      | 375/1080 [23:21<45:29,  3.87s/it]Processing experiments:  35%|███▍      | 376/1080 [23:24<44:26,  3.79s/it]Processing experiments:  35%|███▍      | 377/1080 [23:28<43:57,  3.75s/it]Processing experiments:  35%|███▌      | 378/1080 [23:32<44:26,  3.80s/it]Processing experiments:  35%|███▌      | 379/1080 [23:36<44:48,  3.83s/it]Processing experiments:  35%|███▌      | 380/1080 [23:40<44:53,  3.85s/it]Processing experiments:  35%|███▌      | 381/1080 [23:43<44:24,  3.81s/it]Processing experiments:  35%|███▌      | 382/1080 [23:47<43:43,  3.76s/it]Processing experiments:  35%|███▌      | 383/1080 [23:51<44:06,  3.80s/it]Processing experiments:  36%|███▌      | 384/1080 [23:55<44:22,  3.83s/it]Processing experiments:  36%|███▌      | 385/1080 [23:59<45:13,  3.90s/it]Processing experiments:  36%|███▌      | 386/1080 [24:03<45:32,  3.94s/it]Processing experiments:  36%|███▌      | 387/1080 [24:06<44:21,  3.84s/it]Processing experiments:  36%|███▌      | 388/1080 [24:10<44:16,  3.84s/it]Processing experiments:  36%|███▌      | 389/1080 [24:14<43:53,  3.81s/it]Processing experiments:  36%|███▌      | 390/1080 [24:18<44:09,  3.84s/it]Processing experiments:  36%|███▌      | 391/1080 [24:22<43:52,  3.82s/it]Processing experiments:  36%|███▋      | 392/1080 [24:25<43:03,  3.76s/it]Processing experiments:  36%|███▋      | 393/1080 [24:29<44:08,  3.86s/it]Processing experiments:  36%|███▋      | 394/1080 [24:33<44:00,  3.85s/it]Processing experiments:  37%|███▋      | 395/1080 [24:37<43:44,  3.83s/it]Processing experiments:  37%|███▋      | 396/1080 [24:41<43:12,  3.79s/it]Processing experiments:  37%|███▋      | 397/1080 [24:44<42:42,  3.75s/it]Processing experiments:  37%|███▋      | 398/1080 [24:48<42:42,  3.76s/it]Processing experiments:  37%|███▋      | 399/1080 [24:52<43:13,  3.81s/it]Processing experiments:  37%|███▋      | 400/1080 [24:56<43:13,  3.81s/it]Processing experiments:  37%|███▋      | 401/1080 [25:00<43:09,  3.81s/it]Processing experiments:  37%|███▋      | 402/1080 [25:04<43:35,  3.86s/it]Processing experiments:  37%|███▋      | 403/1080 [25:07<43:08,  3.82s/it]Processing experiments:  37%|███▋      | 404/1080 [25:11<42:48,  3.80s/it]Processing experiments:  38%|███▊      | 405/1080 [25:15<43:29,  3.87s/it]Processing experiments:  38%|███▊      | 406/1080 [25:19<43:07,  3.84s/it]Processing experiments:  38%|███▊      | 407/1080 [25:23<43:54,  3.91s/it]Processing experiments:  38%|███▊      | 408/1080 [25:27<42:48,  3.82s/it]Processing experiments:  38%|███▊      | 409/1080 [25:30<42:10,  3.77s/it]Processing experiments:  38%|███▊      | 410/1080 [25:35<45:51,  4.11s/it]Processing experiments:  38%|███▊      | 411/1080 [25:39<44:42,  4.01s/it]Processing experiments:  38%|███▊      | 412/1080 [25:43<43:38,  3.92s/it]Processing experiments:  38%|███▊      | 413/1080 [25:47<43:27,  3.91s/it]Processing experiments:  38%|███▊      | 414/1080 [25:50<42:28,  3.83s/it]Processing experiments:  38%|███▊      | 415/1080 [25:54<42:33,  3.84s/it]Processing experiments:  39%|███▊      | 416/1080 [25:58<42:38,  3.85s/it]Processing experiments:  39%|███▊      | 417/1080 [26:02<42:13,  3.82s/it]Processing experiments:  39%|███▊      | 418/1080 [26:05<41:40,  3.78s/it]Processing experiments:  39%|███▉      | 419/1080 [26:09<41:17,  3.75s/it]Processing experiments:  39%|███▉      | 420/1080 [26:13<41:19,  3.76s/it]Processing experiments:  39%|███▉      | 421/1080 [26:17<41:44,  3.80s/it]Processing experiments:  39%|███▉      | 422/1080 [26:21<41:59,  3.83s/it]Processing experiments:  39%|███▉      | 423/1080 [26:25<43:06,  3.94s/it]Processing experiments:  39%|███▉      | 424/1080 [26:28<42:03,  3.85s/it]Processing experiments:  39%|███▉      | 425/1080 [26:32<42:25,  3.89s/it]Processing experiments:  39%|███▉      | 426/1080 [26:36<42:30,  3.90s/it]Processing experiments:  40%|███▉      | 427/1080 [26:40<41:40,  3.83s/it]Processing experiments:  40%|███▉      | 428/1080 [26:44<41:00,  3.77s/it]Processing experiments:  40%|███▉      | 429/1080 [26:47<40:49,  3.76s/it]Processing experiments:  40%|███▉      | 430/1080 [26:51<39:57,  3.69s/it]Processing experiments:  40%|███▉      | 431/1080 [26:55<40:54,  3.78s/it]Processing experiments:  40%|████      | 432/1080 [26:59<41:21,  3.83s/it]Processing experiments:  40%|████      | 433/1080 [27:03<41:51,  3.88s/it]Processing experiments:  40%|████      | 434/1080 [27:07<41:39,  3.87s/it]Processing experiments:  40%|████      | 435/1080 [27:11<42:07,  3.92s/it]Processing experiments:  40%|████      | 436/1080 [27:14<41:10,  3.84s/it]Processing experiments:  40%|████      | 437/1080 [27:18<40:10,  3.75s/it]Processing experiments:  41%|████      | 438/1080 [27:22<40:10,  3.75s/it]Processing experiments:  41%|████      | 439/1080 [27:25<39:53,  3.73s/it]Processing experiments:  41%|████      | 440/1080 [27:29<39:39,  3.72s/it]Processing experiments:  41%|████      | 441/1080 [27:33<40:08,  3.77s/it]Processing experiments:  41%|████      | 442/1080 [27:37<40:00,  3.76s/it]Processing experiments:  41%|████      | 443/1080 [27:41<40:27,  3.81s/it]Processing experiments:  41%|████      | 444/1080 [27:45<41:01,  3.87s/it]Processing experiments:  41%|████      | 445/1080 [27:48<40:24,  3.82s/it]Processing experiments:  41%|████▏     | 446/1080 [27:52<40:01,  3.79s/it]Processing experiments:  41%|████▏     | 447/1080 [27:56<40:48,  3.87s/it]Processing experiments:  41%|████▏     | 448/1080 [28:00<40:15,  3.82s/it]Processing experiments:  42%|████▏     | 449/1080 [28:03<39:44,  3.78s/it]Processing experiments:  42%|████▏     | 450/1080 [28:07<39:38,  3.78s/it]Processing experiments:  42%|████▏     | 451/1080 [28:11<39:47,  3.80s/it]Processing experiments:  42%|████▏     | 452/1080 [28:15<39:48,  3.80s/it]Processing experiments:  42%|████▏     | 453/1080 [28:18<39:00,  3.73s/it]Processing experiments:  42%|████▏     | 454/1080 [28:22<38:34,  3.70s/it]Processing experiments:  42%|████▏     | 455/1080 [28:26<39:28,  3.79s/it]Processing experiments:  42%|████▏     | 456/1080 [28:30<38:55,  3.74s/it]Processing experiments:  42%|████▏     | 457/1080 [28:33<38:35,  3.72s/it]Processing experiments:  42%|████▏     | 458/1080 [28:37<38:58,  3.76s/it]Processing experiments:  42%|████▎     | 459/1080 [28:41<38:30,  3.72s/it]Processing experiments:  43%|████▎     | 460/1080 [28:45<39:07,  3.79s/it]Processing experiments:  43%|████▎     | 461/1080 [28:49<39:50,  3.86s/it]Processing experiments:  43%|████▎     | 462/1080 [28:52<38:41,  3.76s/it]Processing experiments:  43%|████▎     | 463/1080 [28:56<39:30,  3.84s/it]Processing experiments:  43%|████▎     | 464/1080 [29:00<39:35,  3.86s/it]Processing experiments:  43%|████▎     | 465/1080 [29:04<39:56,  3.90s/it]Processing experiments:  43%|████▎     | 466/1080 [29:08<39:37,  3.87s/it]Processing experiments:  43%|████▎     | 467/1080 [29:12<39:16,  3.84s/it]Processing experiments:  43%|████▎     | 468/1080 [29:16<38:52,  3.81s/it]Processing experiments:  43%|████▎     | 469/1080 [29:19<38:58,  3.83s/it]Processing experiments:  44%|████▎     | 470/1080 [29:23<39:23,  3.87s/it]Processing experiments:  44%|████▎     | 471/1080 [29:27<38:36,  3.80s/it]Processing experiments:  44%|████▎     | 472/1080 [29:31<38:27,  3.79s/it]Processing experiments:  44%|████▍     | 473/1080 [29:35<39:58,  3.95s/it]Processing experiments:  44%|████▍     | 474/1080 [29:39<38:59,  3.86s/it]Processing experiments:  44%|████▍     | 475/1080 [29:43<39:49,  3.95s/it]Processing experiments:  44%|████▍     | 476/1080 [29:47<39:30,  3.92s/it]Processing experiments:  44%|████▍     | 477/1080 [29:50<38:36,  3.84s/it]Processing experiments:  44%|████▍     | 478/1080 [29:54<38:05,  3.80s/it]Processing experiments:  44%|████▍     | 479/1080 [29:58<38:40,  3.86s/it]Processing experiments:  44%|████▍     | 480/1080 [30:02<38:01,  3.80s/it]Processing experiments:  45%|████▍     | 481/1080 [30:06<38:16,  3.83s/it]Processing experiments:  45%|████▍     | 482/1080 [30:10<39:17,  3.94s/it]Processing experiments:  45%|████▍     | 483/1080 [30:14<38:50,  3.90s/it]Processing experiments:  45%|████▍     | 484/1080 [30:18<38:25,  3.87s/it]Processing experiments:  45%|████▍     | 485/1080 [30:21<38:06,  3.84s/it]Processing experiments:  45%|████▌     | 486/1080 [30:25<38:10,  3.86s/it]Processing experiments:  45%|████▌     | 487/1080 [30:29<37:32,  3.80s/it]Processing experiments:  45%|████▌     | 488/1080 [30:33<37:39,  3.82s/it]Processing experiments:  45%|████▌     | 489/1080 [30:37<37:32,  3.81s/it]Processing experiments:  45%|████▌     | 490/1080 [30:40<37:12,  3.78s/it]Processing experiments:  45%|████▌     | 491/1080 [30:44<37:10,  3.79s/it]Processing experiments:  46%|████▌     | 492/1080 [30:48<36:48,  3.76s/it]Processing experiments:  46%|████▌     | 493/1080 [30:52<36:52,  3.77s/it]Processing experiments:  46%|████▌     | 494/1080 [30:55<37:01,  3.79s/it]Processing experiments:  46%|████▌     | 495/1080 [30:59<36:44,  3.77s/it]Processing experiments:  46%|████▌     | 496/1080 [31:03<37:48,  3.88s/it]Processing experiments:  46%|████▌     | 497/1080 [31:07<37:16,  3.84s/it]Processing experiments:  46%|████▌     | 498/1080 [31:11<37:23,  3.85s/it]Processing experiments:  46%|████▌     | 499/1080 [31:14<36:32,  3.77s/it]Processing experiments:  46%|████▋     | 500/1080 [31:18<36:47,  3.81s/it]Processing experiments:  46%|████▋     | 501/1080 [31:22<36:24,  3.77s/it]Processing experiments:  46%|████▋     | 502/1080 [31:26<36:19,  3.77s/it]Processing experiments:  47%|████▋     | 503/1080 [31:30<36:37,  3.81s/it]Processing experiments:  47%|████▋     | 504/1080 [31:34<36:49,  3.84s/it]Processing experiments:  47%|████▋     | 505/1080 [31:37<36:33,  3.82s/it]Processing experiments:  47%|████▋     | 506/1080 [31:41<36:32,  3.82s/it]Processing experiments:  47%|████▋     | 507/1080 [31:45<35:58,  3.77s/it]Processing experiments:  47%|████▋     | 508/1080 [31:49<36:05,  3.79s/it]Processing experiments:  47%|████▋     | 509/1080 [31:53<36:24,  3.83s/it]Processing experiments:  47%|████▋     | 510/1080 [31:56<36:26,  3.84s/it]Processing experiments:  47%|████▋     | 511/1080 [32:00<36:33,  3.85s/it]Processing experiments:  47%|████▋     | 512/1080 [32:04<36:05,  3.81s/it]Processing experiments:  48%|████▊     | 513/1080 [32:08<35:23,  3.75s/it]Processing experiments:  48%|████▊     | 514/1080 [32:12<35:39,  3.78s/it]Processing experiments:  48%|████▊     | 515/1080 [32:16<36:17,  3.85s/it]Processing experiments:  48%|████▊     | 516/1080 [32:28<1:00:59,  6.49s/it]Processing experiments:  48%|████▊     | 517/1080 [32:32<54:01,  5.76s/it]  Processing experiments:  48%|████▊     | 518/1080 [32:36<48:18,  5.16s/it]Processing experiments:  48%|████▊     | 519/1080 [32:40<44:27,  4.75s/it]Processing experiments:  48%|████▊     | 520/1080 [32:44<41:49,  4.48s/it]Processing experiments:  48%|████▊     | 521/1080 [32:48<40:19,  4.33s/it]Processing experiments:  48%|████▊     | 522/1080 [32:52<39:06,  4.21s/it]Processing experiments:  48%|████▊     | 523/1080 [32:55<38:01,  4.10s/it]Processing experiments:  49%|████▊     | 524/1080 [32:59<36:32,  3.94s/it]Processing experiments:  49%|████▊     | 525/1080 [33:03<35:52,  3.88s/it]Processing experiments:  49%|████▊     | 526/1080 [33:07<36:47,  3.99s/it]Processing experiments:  49%|████▉     | 527/1080 [33:11<36:24,  3.95s/it]Processing experiments:  49%|████▉     | 528/1080 [33:15<36:26,  3.96s/it]Processing experiments:  49%|████▉     | 529/1080 [33:19<36:38,  3.99s/it]Processing experiments:  49%|████▉     | 530/1080 [33:23<35:53,  3.92s/it]Processing experiments:  49%|████▉     | 531/1080 [33:27<35:59,  3.93s/it]Processing experiments:  49%|████▉     | 532/1080 [33:30<35:03,  3.84s/it]Processing experiments:  49%|████▉     | 533/1080 [33:34<35:29,  3.89s/it]Processing experiments:  49%|████▉     | 534/1080 [33:38<34:10,  3.76s/it]Processing experiments:  50%|████▉     | 535/1080 [33:42<34:44,  3.82s/it]Processing experiments:  50%|████▉     | 536/1080 [33:45<34:11,  3.77s/it]Processing experiments:  50%|████▉     | 537/1080 [33:49<34:52,  3.85s/it]Processing experiments:  50%|████▉     | 538/1080 [33:53<35:16,  3.91s/it]Processing experiments:  50%|████▉     | 539/1080 [33:57<35:03,  3.89s/it]Processing experiments:  50%|█████     | 540/1080 [34:01<35:14,  3.92s/it]Processing experiments:  50%|█████     | 541/1080 [34:05<34:44,  3.87s/it]Processing experiments:  50%|█████     | 542/1080 [34:09<34:37,  3.86s/it]Processing experiments:  50%|█████     | 543/1080 [34:13<34:33,  3.86s/it]Processing experiments:  50%|█████     | 544/1080 [34:17<34:53,  3.91s/it]Processing experiments:  50%|█████     | 545/1080 [34:20<33:57,  3.81s/it]Processing experiments:  51%|█████     | 546/1080 [34:24<33:17,  3.74s/it]Processing experiments:  51%|█████     | 547/1080 [34:28<33:25,  3.76s/it]Processing experiments:  51%|█████     | 548/1080 [34:31<33:15,  3.75s/it]Processing experiments:  51%|█████     | 549/1080 [34:35<33:22,  3.77s/it]Processing experiments:  51%|█████     | 550/1080 [34:39<33:17,  3.77s/it]Processing experiments:  51%|█████     | 551/1080 [34:43<33:20,  3.78s/it]Processing experiments:  51%|█████     | 552/1080 [34:46<32:40,  3.71s/it]Processing experiments:  51%|█████     | 553/1080 [34:50<32:28,  3.70s/it]Processing experiments:  51%|█████▏    | 554/1080 [34:54<32:45,  3.74s/it]Processing experiments:  51%|█████▏    | 555/1080 [34:58<33:05,  3.78s/it]Processing experiments:  51%|█████▏    | 556/1080 [35:01<33:10,  3.80s/it]Processing experiments:  52%|█████▏    | 557/1080 [35:05<32:54,  3.77s/it]Processing experiments:  52%|█████▏    | 558/1080 [35:09<32:18,  3.71s/it]Processing experiments:  52%|█████▏    | 559/1080 [35:12<31:47,  3.66s/it]Processing experiments:  52%|█████▏    | 560/1080 [35:17<33:29,  3.86s/it]Processing experiments:  52%|█████▏    | 561/1080 [35:20<33:17,  3.85s/it]Processing experiments:  52%|█████▏    | 562/1080 [35:24<33:17,  3.86s/it]Processing experiments:  52%|█████▏    | 563/1080 [35:28<33:45,  3.92s/it]Processing experiments:  52%|█████▏    | 564/1080 [35:32<33:07,  3.85s/it]Processing experiments:  52%|█████▏    | 565/1080 [35:36<33:10,  3.87s/it]Processing experiments:  52%|█████▏    | 566/1080 [35:40<33:12,  3.88s/it]Processing experiments:  52%|█████▎    | 567/1080 [35:44<33:13,  3.89s/it]Processing experiments:  53%|█████▎    | 568/1080 [35:48<33:02,  3.87s/it]Processing experiments:  53%|█████▎    | 569/1080 [35:51<32:52,  3.86s/it]Processing experiments:  53%|█████▎    | 570/1080 [35:55<33:09,  3.90s/it]Processing experiments:  53%|█████▎    | 571/1080 [35:59<32:55,  3.88s/it]Processing experiments:  53%|█████▎    | 572/1080 [36:03<32:44,  3.87s/it]Processing experiments:  53%|█████▎    | 573/1080 [36:07<32:13,  3.81s/it]Processing experiments:  53%|█████▎    | 574/1080 [36:11<32:20,  3.83s/it]Processing experiments:  53%|█████▎    | 575/1080 [36:14<31:54,  3.79s/it]Processing experiments:  53%|█████▎    | 576/1080 [36:18<32:26,  3.86s/it]Processing experiments:  53%|█████▎    | 577/1080 [36:22<32:04,  3.83s/it]Processing experiments:  54%|█████▎    | 578/1080 [36:27<33:18,  3.98s/it]Processing experiments:  54%|█████▎    | 579/1080 [36:30<32:38,  3.91s/it]Processing experiments:  54%|█████▎    | 580/1080 [36:34<31:59,  3.84s/it]Processing experiments:  54%|█████▍    | 581/1080 [36:38<31:43,  3.81s/it]Processing experiments:  54%|█████▍    | 582/1080 [36:42<31:39,  3.82s/it]Processing experiments:  54%|█████▍    | 583/1080 [36:45<31:48,  3.84s/it]Processing experiments:  54%|█████▍    | 584/1080 [36:49<31:23,  3.80s/it]Processing experiments:  54%|█████▍    | 585/1080 [36:53<31:11,  3.78s/it]Processing experiments:  54%|█████▍    | 586/1080 [36:57<30:52,  3.75s/it]Processing experiments:  54%|█████▍    | 587/1080 [37:00<31:03,  3.78s/it]Processing experiments:  54%|█████▍    | 588/1080 [37:04<30:36,  3.73s/it]Processing experiments:  55%|█████▍    | 589/1080 [37:08<31:03,  3.80s/it]Processing experiments:  55%|█████▍    | 590/1080 [37:12<30:41,  3.76s/it]Processing experiments:  55%|█████▍    | 591/1080 [37:15<30:47,  3.78s/it]Processing experiments:  55%|█████▍    | 592/1080 [37:19<30:06,  3.70s/it]Processing experiments:  55%|█████▍    | 593/1080 [37:23<30:19,  3.74s/it]Processing experiments:  55%|█████▌    | 594/1080 [37:27<30:23,  3.75s/it]Processing experiments:  55%|█████▌    | 595/1080 [37:30<30:37,  3.79s/it]Processing experiments:  55%|█████▌    | 596/1080 [37:34<30:36,  3.79s/it]Processing experiments:  55%|█████▌    | 597/1080 [37:38<30:35,  3.80s/it]Processing experiments:  55%|█████▌    | 598/1080 [37:42<30:33,  3.80s/it]Processing experiments:  55%|█████▌    | 599/1080 [37:46<30:45,  3.84s/it]Processing experiments:  56%|█████▌    | 600/1080 [37:49<29:51,  3.73s/it]Processing experiments:  56%|█████▌    | 601/1080 [37:53<30:22,  3.81s/it]Processing experiments:  56%|█████▌    | 602/1080 [37:57<30:46,  3.86s/it]Processing experiments:  56%|█████▌    | 603/1080 [38:01<30:50,  3.88s/it]Processing experiments:  56%|█████▌    | 604/1080 [38:05<30:47,  3.88s/it]Processing experiments:  56%|█████▌    | 605/1080 [38:09<30:52,  3.90s/it]Processing experiments:  56%|█████▌    | 606/1080 [38:13<30:34,  3.87s/it]Processing experiments:  56%|█████▌    | 607/1080 [38:17<30:50,  3.91s/it]Processing experiments:  56%|█████▋    | 608/1080 [38:21<31:49,  4.05s/it]Processing experiments:  56%|█████▋    | 609/1080 [38:25<31:23,  4.00s/it]Processing experiments:  56%|█████▋    | 610/1080 [38:29<30:34,  3.90s/it]Processing experiments:  57%|█████▋    | 611/1080 [38:32<29:55,  3.83s/it]Processing experiments:  57%|█████▋    | 612/1080 [38:36<29:13,  3.75s/it]Processing experiments:  57%|█████▋    | 613/1080 [38:39<28:38,  3.68s/it]Processing experiments:  57%|█████▋    | 614/1080 [38:43<28:22,  3.65s/it]Processing experiments:  57%|█████▋    | 615/1080 [38:47<28:17,  3.65s/it]Processing experiments:  57%|█████▋    | 616/1080 [38:50<28:31,  3.69s/it]Processing experiments:  57%|█████▋    | 617/1080 [38:54<28:13,  3.66s/it]Processing experiments:  57%|█████▋    | 618/1080 [38:58<28:07,  3.65s/it]Processing experiments:  57%|█████▋    | 619/1080 [39:02<28:31,  3.71s/it]Processing experiments:  57%|█████▋    | 620/1080 [39:05<28:02,  3.66s/it]Processing experiments:  57%|█████▊    | 621/1080 [39:09<28:31,  3.73s/it]Processing experiments:  58%|█████▊    | 622/1080 [39:13<29:06,  3.81s/it]Processing experiments:  58%|█████▊    | 623/1080 [39:17<29:39,  3.89s/it]Processing experiments:  58%|█████▊    | 624/1080 [39:21<28:55,  3.80s/it]Processing experiments:  58%|█████▊    | 625/1080 [39:25<29:03,  3.83s/it]Processing experiments:  58%|█████▊    | 626/1080 [39:28<28:37,  3.78s/it]Processing experiments:  58%|█████▊    | 627/1080 [39:32<28:21,  3.76s/it]Processing experiments:  58%|█████▊    | 628/1080 [39:36<30:01,  3.98s/it]Processing experiments:  58%|█████▊    | 629/1080 [39:40<29:28,  3.92s/it]Processing experiments:  58%|█████▊    | 630/1080 [39:44<29:37,  3.95s/it]Processing experiments:  58%|█████▊    | 631/1080 [39:48<29:07,  3.89s/it]Processing experiments:  59%|█████▊    | 632/1080 [39:52<28:55,  3.87s/it]Processing experiments:  59%|█████▊    | 633/1080 [39:56<28:44,  3.86s/it]Processing experiments:  59%|█████▊    | 634/1080 [40:00<29:03,  3.91s/it]Processing experiments:  59%|█████▉    | 635/1080 [40:04<29:27,  3.97s/it]Processing experiments:  59%|█████▉    | 636/1080 [40:08<29:49,  4.03s/it]Processing experiments:  59%|█████▉    | 637/1080 [40:12<30:00,  4.06s/it]Processing experiments:  59%|█████▉    | 638/1080 [40:16<28:51,  3.92s/it]Processing experiments:  59%|█████▉    | 639/1080 [40:19<28:24,  3.86s/it]Processing experiments:  59%|█████▉    | 640/1080 [40:23<28:15,  3.85s/it]Processing experiments:  59%|█████▉    | 641/1080 [40:27<27:53,  3.81s/it]Processing experiments:  59%|█████▉    | 642/1080 [40:31<27:38,  3.79s/it]Processing experiments:  60%|█████▉    | 643/1080 [40:35<28:31,  3.92s/it]Processing experiments:  60%|█████▉    | 644/1080 [40:39<28:04,  3.86s/it]Processing experiments:  60%|█████▉    | 645/1080 [40:43<28:14,  3.90s/it]Processing experiments:  60%|█████▉    | 646/1080 [40:46<27:47,  3.84s/it]Processing experiments:  60%|█████▉    | 647/1080 [40:50<27:24,  3.80s/it]Processing experiments:  60%|██████    | 648/1080 [40:54<27:28,  3.82s/it]Processing experiments:  60%|██████    | 649/1080 [40:58<28:19,  3.94s/it]Processing experiments:  60%|██████    | 650/1080 [41:02<27:45,  3.87s/it]Processing experiments:  60%|██████    | 651/1080 [41:06<27:37,  3.86s/it]Processing experiments:  60%|██████    | 652/1080 [41:10<28:07,  3.94s/it]Processing experiments:  60%|██████    | 653/1080 [41:14<29:07,  4.09s/it]Processing experiments:  61%|██████    | 654/1080 [41:18<28:19,  3.99s/it]Processing experiments:  61%|██████    | 655/1080 [41:22<28:10,  3.98s/it]Processing experiments:  61%|██████    | 656/1080 [41:26<27:43,  3.92s/it]Processing experiments:  61%|██████    | 657/1080 [41:30<27:29,  3.90s/it]Processing experiments:  61%|██████    | 658/1080 [41:33<27:18,  3.88s/it]Processing experiments:  61%|██████    | 659/1080 [41:37<27:13,  3.88s/it]Processing experiments:  61%|██████    | 660/1080 [41:41<27:26,  3.92s/it]Processing experiments:  61%|██████    | 661/1080 [41:45<27:15,  3.90s/it]Processing experiments:  61%|██████▏   | 662/1080 [41:49<27:04,  3.89s/it]Processing experiments:  61%|██████▏   | 663/1080 [41:53<26:42,  3.84s/it]Processing experiments:  61%|██████▏   | 664/1080 [41:57<26:35,  3.84s/it]Processing experiments:  62%|██████▏   | 665/1080 [42:00<26:32,  3.84s/it]Processing experiments:  62%|██████▏   | 666/1080 [42:05<27:30,  3.99s/it]Processing experiments:  62%|██████▏   | 667/1080 [42:08<26:37,  3.87s/it]Processing experiments:  62%|██████▏   | 668/1080 [42:12<26:27,  3.85s/it]Processing experiments:  62%|██████▏   | 669/1080 [42:16<26:18,  3.84s/it]Processing experiments:  62%|██████▏   | 670/1080 [42:20<26:38,  3.90s/it]Processing experiments:  62%|██████▏   | 671/1080 [42:24<26:33,  3.89s/it]Processing experiments:  62%|██████▏   | 672/1080 [42:28<26:33,  3.91s/it]Processing experiments:  62%|██████▏   | 673/1080 [42:32<26:17,  3.88s/it]Processing experiments:  62%|██████▏   | 674/1080 [42:35<26:09,  3.87s/it]Processing experiments:  62%|██████▎   | 675/1080 [42:39<26:07,  3.87s/it]Processing experiments:  63%|██████▎   | 676/1080 [42:43<25:49,  3.83s/it]Processing experiments:  63%|██████▎   | 677/1080 [42:47<25:29,  3.80s/it]Processing experiments:  63%|██████▎   | 678/1080 [42:51<25:48,  3.85s/it]Processing experiments:  63%|██████▎   | 679/1080 [42:54<25:21,  3.79s/it]Processing experiments:  63%|██████▎   | 680/1080 [42:58<25:05,  3.76s/it]Processing experiments:  63%|██████▎   | 681/1080 [43:02<25:12,  3.79s/it]Processing experiments:  63%|██████▎   | 682/1080 [43:06<25:09,  3.79s/it]Processing experiments:  63%|██████▎   | 683/1080 [43:10<25:21,  3.83s/it]Processing experiments:  63%|██████▎   | 684/1080 [43:14<25:47,  3.91s/it]Processing experiments:  63%|██████▎   | 685/1080 [43:18<25:38,  3.90s/it]Processing experiments:  64%|██████▎   | 686/1080 [43:22<25:38,  3.91s/it]Processing experiments:  64%|██████▎   | 687/1080 [43:25<25:15,  3.86s/it]Processing experiments:  64%|██████▎   | 688/1080 [43:29<25:18,  3.87s/it]Processing experiments:  64%|██████▍   | 689/1080 [43:33<24:54,  3.82s/it]Processing experiments:  64%|██████▍   | 690/1080 [43:37<24:37,  3.79s/it]Processing experiments:  64%|██████▍   | 691/1080 [43:41<24:39,  3.80s/it]Processing experiments:  64%|██████▍   | 692/1080 [43:44<24:32,  3.80s/it]Processing experiments:  64%|██████▍   | 693/1080 [43:48<24:20,  3.77s/it]Processing experiments:  64%|██████▍   | 694/1080 [43:52<24:43,  3.84s/it]Processing experiments:  64%|██████▍   | 695/1080 [43:56<24:29,  3.82s/it]Processing experiments:  64%|██████▍   | 696/1080 [44:00<24:23,  3.81s/it]Processing experiments:  65%|██████▍   | 697/1080 [44:03<24:22,  3.82s/it]Processing experiments:  65%|██████▍   | 698/1080 [44:07<23:50,  3.74s/it]Processing experiments:  65%|██████▍   | 699/1080 [44:12<26:07,  4.12s/it]Processing experiments:  65%|██████▍   | 700/1080 [44:16<25:42,  4.06s/it]Processing experiments:  65%|██████▍   | 701/1080 [44:20<25:28,  4.03s/it]Processing experiments:  65%|██████▌   | 702/1080 [44:24<25:12,  4.00s/it]Processing experiments:  65%|██████▌   | 703/1080 [44:28<25:00,  3.98s/it]Processing experiments:  65%|██████▌   | 704/1080 [44:31<24:27,  3.90s/it]Processing experiments:  65%|██████▌   | 705/1080 [44:35<23:51,  3.82s/it]Processing experiments:  65%|██████▌   | 706/1080 [44:39<24:00,  3.85s/it]Processing experiments:  65%|██████▌   | 707/1080 [44:43<23:52,  3.84s/it]Processing experiments:  66%|██████▌   | 708/1080 [44:47<23:54,  3.86s/it]Processing experiments:  66%|██████▌   | 709/1080 [44:50<23:33,  3.81s/it]Processing experiments:  66%|██████▌   | 710/1080 [44:54<23:50,  3.87s/it]Processing experiments:  66%|██████▌   | 711/1080 [44:58<23:47,  3.87s/it]Processing experiments:  66%|██████▌   | 712/1080 [45:02<23:04,  3.76s/it]Processing experiments:  66%|██████▌   | 713/1080 [45:05<22:49,  3.73s/it]Processing experiments:  66%|██████▌   | 714/1080 [45:09<23:05,  3.79s/it]Processing experiments:  66%|██████▌   | 715/1080 [45:13<22:39,  3.72s/it]Processing experiments:  66%|██████▋   | 716/1080 [45:16<22:08,  3.65s/it]Processing experiments:  66%|██████▋   | 717/1080 [45:20<22:33,  3.73s/it]Processing experiments:  66%|██████▋   | 718/1080 [45:24<22:38,  3.75s/it]Processing experiments:  67%|██████▋   | 719/1080 [45:28<22:34,  3.75s/it]Processing experiments:  67%|██████▋   | 720/1080 [45:32<22:24,  3.74s/it]Processing experiments:  67%|██████▋   | 721/1080 [45:35<22:24,  3.74s/it]Processing experiments:  67%|██████▋   | 722/1080 [45:39<22:23,  3.75s/it]Processing experiments:  67%|██████▋   | 723/1080 [45:43<22:48,  3.83s/it]Processing experiments:  67%|██████▋   | 724/1080 [45:47<22:10,  3.74s/it]Processing experiments:  67%|██████▋   | 725/1080 [45:50<21:59,  3.72s/it]Processing experiments:  67%|██████▋   | 726/1080 [45:54<21:50,  3.70s/it]Processing experiments:  67%|██████▋   | 727/1080 [45:58<21:32,  3.66s/it]Processing experiments:  67%|██████▋   | 728/1080 [46:01<21:27,  3.66s/it]Processing experiments:  68%|██████▊   | 729/1080 [46:05<21:47,  3.72s/it]Processing experiments:  68%|██████▊   | 730/1080 [46:09<21:35,  3.70s/it]Processing experiments:  68%|██████▊   | 731/1080 [46:13<21:54,  3.77s/it]Processing experiments:  68%|██████▊   | 732/1080 [46:16<21:21,  3.68s/it]Processing experiments:  68%|██████▊   | 733/1080 [46:20<21:38,  3.74s/it]Processing experiments:  68%|██████▊   | 734/1080 [46:24<21:37,  3.75s/it]Processing experiments:  68%|██████▊   | 735/1080 [46:28<21:36,  3.76s/it]Processing experiments:  68%|██████▊   | 736/1080 [46:31<21:26,  3.74s/it]Processing experiments:  68%|██████▊   | 737/1080 [46:36<22:24,  3.92s/it]Processing experiments:  68%|██████▊   | 738/1080 [46:39<22:08,  3.88s/it]Processing experiments:  68%|██████▊   | 739/1080 [46:43<22:03,  3.88s/it]Processing experiments:  69%|██████▊   | 740/1080 [46:47<21:44,  3.84s/it]Processing experiments:  69%|██████▊   | 741/1080 [46:51<22:04,  3.91s/it]Processing experiments:  69%|██████▊   | 742/1080 [46:54<21:07,  3.75s/it]Processing experiments:  69%|██████▉   | 743/1080 [46:58<20:58,  3.74s/it]Processing experiments:  69%|██████▉   | 744/1080 [47:02<20:59,  3.75s/it]Processing experiments:  69%|██████▉   | 745/1080 [47:06<20:58,  3.76s/it]Processing experiments:  69%|██████▉   | 746/1080 [47:10<21:35,  3.88s/it]Processing experiments:  69%|██████▉   | 747/1080 [47:14<22:07,  3.99s/it]Processing experiments:  69%|██████▉   | 748/1080 [47:18<22:20,  4.04s/it]Processing experiments:  69%|██████▉   | 749/1080 [47:22<22:10,  4.02s/it]Processing experiments:  69%|██████▉   | 750/1080 [47:26<21:37,  3.93s/it]Processing experiments:  70%|██████▉   | 751/1080 [47:30<21:40,  3.95s/it]Processing experiments:  70%|██████▉   | 752/1080 [47:34<21:26,  3.92s/it]Processing experiments:  70%|██████▉   | 753/1080 [47:37<20:55,  3.84s/it]Processing experiments:  70%|██████▉   | 754/1080 [47:41<20:50,  3.83s/it]Processing experiments:  70%|██████▉   | 755/1080 [47:45<20:28,  3.78s/it]Processing experiments:  70%|███████   | 756/1080 [47:49<20:04,  3.72s/it]Processing experiments:  70%|███████   | 757/1080 [47:52<20:19,  3.78s/it]Processing experiments:  70%|███████   | 758/1080 [47:56<20:21,  3.79s/it]Processing experiments:  70%|███████   | 759/1080 [48:00<20:07,  3.76s/it]Processing experiments:  70%|███████   | 760/1080 [48:04<20:20,  3.82s/it]Processing experiments:  70%|███████   | 761/1080 [48:08<20:43,  3.90s/it]Processing experiments:  71%|███████   | 762/1080 [48:12<20:49,  3.93s/it]Processing experiments:  71%|███████   | 763/1080 [48:16<20:34,  3.90s/it]Processing experiments:  71%|███████   | 764/1080 [48:20<20:27,  3.88s/it]Processing experiments:  71%|███████   | 765/1080 [48:24<20:25,  3.89s/it]Processing experiments:  71%|███████   | 766/1080 [48:28<20:32,  3.93s/it]Processing experiments:  71%|███████   | 767/1080 [48:31<19:59,  3.83s/it]Processing experiments:  71%|███████   | 768/1080 [48:35<20:19,  3.91s/it]Processing experiments:  71%|███████   | 769/1080 [48:39<20:03,  3.87s/it]Processing experiments:  71%|███████▏  | 770/1080 [48:43<19:21,  3.75s/it]Processing experiments:  71%|███████▏  | 771/1080 [48:46<19:12,  3.73s/it]Processing experiments:  71%|███████▏  | 772/1080 [48:50<19:27,  3.79s/it]Processing experiments:  72%|███████▏  | 773/1080 [48:54<19:06,  3.74s/it]Processing experiments:  72%|███████▏  | 774/1080 [48:58<19:10,  3.76s/it]Processing experiments:  72%|███████▏  | 775/1080 [49:01<19:13,  3.78s/it]Processing experiments:  72%|███████▏  | 776/1080 [49:05<19:18,  3.81s/it]Processing experiments:  72%|███████▏  | 777/1080 [49:09<19:13,  3.81s/it]Processing experiments:  72%|███████▏  | 778/1080 [49:13<18:59,  3.77s/it]Processing experiments:  72%|███████▏  | 779/1080 [49:16<18:46,  3.74s/it]Processing experiments:  72%|███████▏  | 780/1080 [49:20<18:39,  3.73s/it]Processing experiments:  72%|███████▏  | 781/1080 [49:24<18:36,  3.73s/it]Processing experiments:  72%|███████▏  | 782/1080 [49:28<18:30,  3.73s/it]Processing experiments:  72%|███████▎  | 783/1080 [49:31<18:26,  3.72s/it]Processing experiments:  73%|███████▎  | 784/1080 [49:35<18:25,  3.73s/it]Processing experiments:  73%|███████▎  | 785/1080 [49:39<18:52,  3.84s/it]Processing experiments:  73%|███████▎  | 786/1080 [49:43<18:46,  3.83s/it]Processing experiments:  73%|███████▎  | 787/1080 [49:48<19:49,  4.06s/it]Processing experiments:  73%|███████▎  | 788/1080 [49:51<19:12,  3.95s/it]Processing experiments:  73%|███████▎  | 789/1080 [49:55<18:59,  3.91s/it]Processing experiments:  73%|███████▎  | 790/1080 [49:59<18:46,  3.88s/it]Processing experiments:  73%|███████▎  | 791/1080 [50:03<18:56,  3.93s/it]Processing experiments:  73%|███████▎  | 792/1080 [50:07<18:21,  3.82s/it]Processing experiments:  73%|███████▎  | 793/1080 [50:10<18:09,  3.80s/it]Processing experiments:  74%|███████▎  | 794/1080 [50:14<18:01,  3.78s/it]Processing experiments:  74%|███████▎  | 795/1080 [50:18<17:39,  3.72s/it]Processing experiments:  74%|███████▎  | 796/1080 [50:21<17:20,  3.66s/it]Processing experiments:  74%|███████▍  | 797/1080 [50:25<17:24,  3.69s/it]Processing experiments:  74%|███████▍  | 798/1080 [50:28<17:12,  3.66s/it]Processing experiments:  74%|███████▍  | 799/1080 [50:32<17:37,  3.76s/it]Processing experiments:  74%|███████▍  | 800/1080 [50:36<17:27,  3.74s/it]Processing experiments:  74%|███████▍  | 801/1080 [50:40<17:20,  3.73s/it]Processing experiments:  74%|███████▍  | 802/1080 [50:44<17:11,  3.71s/it]Processing experiments:  74%|███████▍  | 803/1080 [50:47<17:16,  3.74s/it]Processing experiments:  74%|███████▍  | 804/1080 [50:51<17:35,  3.82s/it]Processing experiments:  75%|███████▍  | 805/1080 [50:55<17:32,  3.83s/it]Processing experiments:  75%|███████▍  | 806/1080 [50:59<17:22,  3.81s/it]Processing experiments:  75%|███████▍  | 807/1080 [51:03<17:13,  3.79s/it]Processing experiments:  75%|███████▍  | 808/1080 [51:07<17:30,  3.86s/it]Processing experiments:  75%|███████▍  | 809/1080 [51:10<17:13,  3.81s/it]Processing experiments:  75%|███████▌  | 810/1080 [51:15<18:04,  4.02s/it]Processing experiments:  75%|███████▌  | 811/1080 [51:19<17:42,  3.95s/it]Processing experiments:  75%|███████▌  | 812/1080 [51:22<16:52,  3.78s/it]Processing experiments:  75%|███████▌  | 813/1080 [51:26<16:35,  3.73s/it]Processing experiments:  75%|███████▌  | 814/1080 [51:29<16:24,  3.70s/it]Processing experiments:  75%|███████▌  | 815/1080 [51:33<16:14,  3.68s/it]Processing experiments:  76%|███████▌  | 816/1080 [51:37<16:08,  3.67s/it]Processing experiments:  76%|███████▌  | 817/1080 [51:40<16:20,  3.73s/it]Processing experiments:  76%|███████▌  | 818/1080 [51:44<15:55,  3.65s/it]Processing experiments:  76%|███████▌  | 819/1080 [51:48<15:56,  3.67s/it]Processing experiments:  76%|███████▌  | 820/1080 [51:51<15:59,  3.69s/it]Processing experiments:  76%|███████▌  | 821/1080 [51:55<15:41,  3.64s/it]Processing experiments:  76%|███████▌  | 822/1080 [51:58<15:23,  3.58s/it]Processing experiments:  76%|███████▌  | 823/1080 [52:02<15:14,  3.56s/it]Processing experiments:  76%|███████▋  | 824/1080 [52:05<15:04,  3.53s/it]Processing experiments:  76%|███████▋  | 825/1080 [52:09<15:27,  3.64s/it]Processing experiments:  76%|███████▋  | 826/1080 [52:13<15:27,  3.65s/it]Processing experiments:  77%|███████▋  | 827/1080 [52:16<15:14,  3.62s/it]Processing experiments:  77%|███████▋  | 828/1080 [52:21<15:47,  3.76s/it]Processing experiments:  77%|███████▋  | 829/1080 [52:24<15:36,  3.73s/it]Processing experiments:  77%|███████▋  | 830/1080 [52:28<15:28,  3.71s/it]Processing experiments:  77%|███████▋  | 831/1080 [52:31<15:18,  3.69s/it]Processing experiments:  77%|███████▋  | 832/1080 [52:35<15:08,  3.66s/it]Processing experiments:  77%|███████▋  | 833/1080 [52:39<14:52,  3.61s/it]Processing experiments:  77%|███████▋  | 834/1080 [52:42<15:09,  3.70s/it]Processing experiments:  77%|███████▋  | 835/1080 [52:46<15:11,  3.72s/it]Processing experiments:  77%|███████▋  | 836/1080 [52:50<14:58,  3.68s/it]Processing experiments:  78%|███████▊  | 837/1080 [52:54<15:06,  3.73s/it]Processing experiments:  78%|███████▊  | 838/1080 [52:57<14:59,  3.72s/it]Processing experiments:  78%|███████▊  | 839/1080 [53:01<14:57,  3.72s/it]Processing experiments:  78%|███████▊  | 840/1080 [53:05<14:45,  3.69s/it]Processing experiments:  78%|███████▊  | 841/1080 [53:08<14:44,  3.70s/it]Processing experiments:  78%|███████▊  | 842/1080 [53:12<14:51,  3.75s/it]Processing experiments:  78%|███████▊  | 843/1080 [53:16<14:44,  3.73s/it]Processing experiments:  78%|███████▊  | 844/1080 [53:19<14:17,  3.63s/it]Processing experiments:  78%|███████▊  | 845/1080 [53:23<14:00,  3.58s/it]Processing experiments:  78%|███████▊  | 846/1080 [53:26<13:55,  3.57s/it]Processing experiments:  78%|███████▊  | 847/1080 [53:30<13:48,  3.56s/it]Processing experiments:  79%|███████▊  | 848/1080 [53:34<13:56,  3.60s/it]Processing experiments:  79%|███████▊  | 849/1080 [53:37<13:45,  3.57s/it]Processing experiments:  79%|███████▊  | 850/1080 [53:41<13:45,  3.59s/it]Processing experiments:  79%|███████▉  | 851/1080 [53:45<13:58,  3.66s/it]Processing experiments:  79%|███████▉  | 852/1080 [53:48<13:50,  3.64s/it]Processing experiments:  79%|███████▉  | 853/1080 [53:52<13:47,  3.64s/it]Processing experiments:  79%|███████▉  | 854/1080 [53:56<13:44,  3.65s/it]Processing experiments:  79%|███████▉  | 855/1080 [53:59<13:32,  3.61s/it]Processing experiments:  79%|███████▉  | 856/1080 [54:03<13:47,  3.69s/it]Processing experiments:  79%|███████▉  | 857/1080 [54:07<14:06,  3.80s/it]Processing experiments:  79%|███████▉  | 858/1080 [54:10<13:46,  3.72s/it]Processing experiments:  80%|███████▉  | 859/1080 [54:14<13:44,  3.73s/it]Processing experiments:  80%|███████▉  | 860/1080 [54:18<13:29,  3.68s/it]Processing experiments:  80%|███████▉  | 861/1080 [54:21<13:25,  3.68s/it]Processing experiments:  80%|███████▉  | 862/1080 [54:25<13:27,  3.70s/it]Processing experiments:  80%|███████▉  | 863/1080 [54:29<13:32,  3.74s/it]Processing experiments:  80%|████████  | 864/1080 [54:33<13:25,  3.73s/it]Processing experiments:  80%|████████  | 865/1080 [54:36<13:10,  3.67s/it]Processing experiments:  80%|████████  | 866/1080 [54:40<13:03,  3.66s/it]Processing experiments:  80%|████████  | 867/1080 [54:44<13:21,  3.76s/it]Processing experiments:  80%|████████  | 868/1080 [54:48<13:29,  3.82s/it]Processing experiments:  80%|████████  | 869/1080 [54:52<13:16,  3.77s/it]Processing experiments:  81%|████████  | 870/1080 [54:55<13:05,  3.74s/it]Processing experiments:  81%|████████  | 871/1080 [54:59<12:47,  3.67s/it]Processing experiments:  81%|████████  | 872/1080 [55:02<12:44,  3.67s/it]Processing experiments:  81%|████████  | 873/1080 [55:06<12:42,  3.69s/it]Processing experiments:  81%|████████  | 874/1080 [55:10<13:20,  3.88s/it]Processing experiments:  81%|████████  | 875/1080 [55:15<13:24,  3.93s/it]Processing experiments:  81%|████████  | 876/1080 [55:18<13:06,  3.86s/it]Processing experiments:  81%|████████  | 877/1080 [55:23<13:35,  4.02s/it]Processing experiments:  81%|████████▏ | 878/1080 [55:27<13:30,  4.01s/it]Processing experiments:  81%|████████▏ | 879/1080 [55:31<13:29,  4.03s/it]Processing experiments:  81%|████████▏ | 880/1080 [55:34<13:09,  3.95s/it]Processing experiments:  82%|████████▏ | 881/1080 [55:39<13:46,  4.15s/it]Processing experiments:  82%|████████▏ | 882/1080 [55:43<13:36,  4.13s/it]Processing experiments:  82%|████████▏ | 883/1080 [55:47<13:18,  4.05s/it]Processing experiments:  82%|████████▏ | 884/1080 [55:51<13:21,  4.09s/it]Processing experiments:  82%|████████▏ | 885/1080 [55:55<13:02,  4.01s/it]Processing experiments:  82%|████████▏ | 886/1080 [55:59<12:31,  3.87s/it]Processing experiments:  82%|████████▏ | 887/1080 [56:02<12:07,  3.77s/it]Processing experiments:  82%|████████▏ | 888/1080 [56:06<11:58,  3.74s/it]Processing experiments:  82%|████████▏ | 889/1080 [56:10<12:01,  3.78s/it]Processing experiments:  82%|████████▏ | 890/1080 [56:13<11:50,  3.74s/it]Processing experiments:  82%|████████▎ | 891/1080 [56:17<11:37,  3.69s/it]Processing experiments:  83%|████████▎ | 892/1080 [56:20<11:27,  3.66s/it]Processing experiments:  83%|████████▎ | 893/1080 [56:24<11:13,  3.60s/it]Processing experiments:  83%|████████▎ | 894/1080 [56:28<11:18,  3.65s/it]Processing experiments:  83%|████████▎ | 895/1080 [56:31<11:03,  3.59s/it]Processing experiments:  83%|████████▎ | 896/1080 [56:35<11:03,  3.61s/it]Processing experiments:  83%|████████▎ | 897/1080 [56:38<11:00,  3.61s/it]Processing experiments:  83%|████████▎ | 898/1080 [56:42<10:56,  3.61s/it]Processing experiments:  83%|████████▎ | 899/1080 [56:45<10:46,  3.57s/it]Processing experiments:  83%|████████▎ | 900/1080 [56:49<10:41,  3.57s/it]Processing experiments:  83%|████████▎ | 901/1080 [56:53<10:42,  3.59s/it]Processing experiments:  84%|████████▎ | 902/1080 [56:56<10:36,  3.58s/it]Processing experiments:  84%|████████▎ | 903/1080 [57:00<10:30,  3.56s/it]Processing experiments:  84%|████████▎ | 904/1080 [57:03<10:20,  3.53s/it]Processing experiments:  84%|████████▍ | 905/1080 [57:07<10:09,  3.48s/it]Processing experiments:  84%|████████▍ | 906/1080 [57:10<10:21,  3.57s/it]Processing experiments:  84%|████████▍ | 907/1080 [57:14<10:21,  3.59s/it]Processing experiments:  84%|████████▍ | 908/1080 [57:17<10:09,  3.54s/it]Processing experiments:  84%|████████▍ | 909/1080 [57:21<10:10,  3.57s/it]Processing experiments:  84%|████████▍ | 910/1080 [57:25<10:14,  3.61s/it]Processing experiments:  84%|████████▍ | 911/1080 [57:29<10:27,  3.71s/it]Processing experiments:  84%|████████▍ | 912/1080 [57:32<10:23,  3.71s/it]Processing experiments:  85%|████████▍ | 913/1080 [57:36<10:16,  3.69s/it]Processing experiments:  85%|████████▍ | 914/1080 [57:40<10:25,  3.77s/it]Processing experiments:  85%|████████▍ | 915/1080 [57:44<10:21,  3.77s/it]Processing experiments:  85%|████████▍ | 916/1080 [57:47<10:09,  3.72s/it]Processing experiments:  85%|████████▍ | 917/1080 [57:51<10:21,  3.81s/it]Processing experiments:  85%|████████▌ | 918/1080 [57:56<10:49,  4.01s/it]Processing experiments:  85%|████████▌ | 919/1080 [57:59<10:22,  3.87s/it]Processing experiments:  85%|████████▌ | 920/1080 [58:03<10:13,  3.83s/it]Processing experiments:  85%|████████▌ | 921/1080 [58:07<09:55,  3.75s/it]Processing experiments:  85%|████████▌ | 922/1080 [58:10<09:54,  3.76s/it]Processing experiments:  85%|████████▌ | 923/1080 [58:14<09:51,  3.77s/it]Processing experiments:  86%|████████▌ | 924/1080 [58:18<09:51,  3.79s/it]Processing experiments:  86%|████████▌ | 925/1080 [58:22<09:51,  3.81s/it]Processing experiments:  86%|████████▌ | 926/1080 [58:26<09:52,  3.85s/it]Processing experiments:  86%|████████▌ | 927/1080 [58:30<09:43,  3.81s/it]Processing experiments:  86%|████████▌ | 928/1080 [58:33<09:34,  3.78s/it]Processing experiments:  86%|████████▌ | 929/1080 [58:37<09:24,  3.74s/it]Processing experiments:  86%|████████▌ | 930/1080 [58:41<09:19,  3.73s/it]Processing experiments:  86%|████████▌ | 931/1080 [58:44<09:10,  3.69s/it]Processing experiments:  86%|████████▋ | 932/1080 [58:48<09:03,  3.67s/it]Processing experiments:  86%|████████▋ | 933/1080 [58:52<09:08,  3.73s/it]Processing experiments:  86%|████████▋ | 934/1080 [58:55<08:55,  3.67s/it]Processing experiments:  87%|████████▋ | 935/1080 [58:59<09:04,  3.76s/it]Processing experiments:  87%|████████▋ | 936/1080 [59:03<08:58,  3.74s/it]Processing experiments:  87%|████████▋ | 937/1080 [59:07<09:21,  3.93s/it]Processing experiments:  87%|████████▋ | 938/1080 [59:11<09:06,  3.85s/it]Processing experiments:  87%|████████▋ | 939/1080 [59:15<08:49,  3.75s/it]Processing experiments:  87%|████████▋ | 940/1080 [59:18<08:37,  3.70s/it]Processing experiments:  87%|████████▋ | 941/1080 [59:22<08:37,  3.72s/it]Processing experiments:  87%|████████▋ | 942/1080 [59:26<08:38,  3.76s/it]Processing experiments:  87%|████████▋ | 943/1080 [59:30<08:44,  3.83s/it]Processing experiments:  87%|████████▋ | 944/1080 [59:33<08:25,  3.72s/it]Processing experiments:  88%|████████▊ | 945/1080 [59:37<08:09,  3.63s/it]Processing experiments:  88%|████████▊ | 946/1080 [59:40<08:05,  3.62s/it]Processing experiments:  88%|████████▊ | 947/1080 [59:44<08:03,  3.64s/it]Processing experiments:  88%|████████▊ | 948/1080 [59:47<07:49,  3.56s/it]Processing experiments:  88%|████████▊ | 949/1080 [59:51<08:11,  3.75s/it]Processing experiments:  88%|████████▊ | 950/1080 [59:55<08:12,  3.79s/it]Processing experiments:  88%|████████▊ | 951/1080 [59:59<08:05,  3.76s/it]Processing experiments:  88%|████████▊ | 952/1080 [1:00:03<07:53,  3.70s/it]Processing experiments:  88%|████████▊ | 953/1080 [1:00:07<08:04,  3.81s/it]Processing experiments:  88%|████████▊ | 954/1080 [1:00:10<07:56,  3.78s/it]Processing experiments:  88%|████████▊ | 955/1080 [1:00:14<07:51,  3.77s/it]Processing experiments:  89%|████████▊ | 956/1080 [1:00:18<07:50,  3.79s/it]Processing experiments:  89%|████████▊ | 957/1080 [1:00:22<07:39,  3.73s/it]Processing experiments:  89%|████████▊ | 958/1080 [1:00:25<07:32,  3.71s/it]Processing experiments:  89%|████████▉ | 959/1080 [1:00:29<07:24,  3.67s/it]Processing experiments:  89%|████████▉ | 960/1080 [1:00:33<07:30,  3.76s/it]Processing experiments:  89%|████████▉ | 961/1080 [1:00:36<07:19,  3.69s/it]Processing experiments:  89%|████████▉ | 962/1080 [1:00:40<07:14,  3.68s/it]Processing experiments:  89%|████████▉ | 963/1080 [1:00:44<07:13,  3.71s/it]Processing experiments:  89%|████████▉ | 964/1080 [1:00:48<07:19,  3.79s/it]Processing experiments:  89%|████████▉ | 965/1080 [1:00:51<07:14,  3.78s/it]Processing experiments:  89%|████████▉ | 966/1080 [1:00:55<07:10,  3.77s/it]Processing experiments:  90%|████████▉ | 967/1080 [1:00:59<07:05,  3.77s/it]Processing experiments:  90%|████████▉ | 968/1080 [1:01:03<07:02,  3.78s/it]Processing experiments:  90%|████████▉ | 969/1080 [1:01:07<07:04,  3.83s/it]Processing experiments:  90%|████████▉ | 970/1080 [1:01:10<06:58,  3.81s/it]Processing experiments:  90%|████████▉ | 971/1080 [1:01:15<07:06,  3.91s/it]Processing experiments:  90%|█████████ | 972/1080 [1:01:18<06:55,  3.85s/it]Processing experiments:  90%|█████████ | 973/1080 [1:01:22<06:46,  3.80s/it]Processing experiments:  90%|█████████ | 974/1080 [1:01:26<06:34,  3.72s/it]Processing experiments:  90%|█████████ | 975/1080 [1:01:29<06:27,  3.69s/it]Processing experiments:  90%|█████████ | 976/1080 [1:01:33<06:24,  3.69s/it]Processing experiments:  90%|█████████ | 977/1080 [1:01:36<06:14,  3.64s/it]Processing experiments:  91%|█████████ | 978/1080 [1:01:40<06:14,  3.67s/it]Processing experiments:  91%|█████████ | 979/1080 [1:01:44<06:11,  3.68s/it]Processing experiments:  91%|█████████ | 980/1080 [1:01:48<06:15,  3.75s/it]Processing experiments:  91%|█████████ | 981/1080 [1:01:51<06:07,  3.71s/it]Processing experiments:  91%|█████████ | 982/1080 [1:01:55<06:06,  3.74s/it]Processing experiments:  91%|█████████ | 983/1080 [1:01:59<06:03,  3.75s/it]Processing experiments:  91%|█████████ | 984/1080 [1:02:03<06:01,  3.76s/it]Processing experiments:  91%|█████████ | 985/1080 [1:02:07<05:57,  3.76s/it]Processing experiments:  91%|█████████▏| 986/1080 [1:02:11<06:19,  4.04s/it]Processing experiments:  91%|█████████▏| 987/1080 [1:02:15<06:07,  3.96s/it]Processing experiments:  91%|█████████▏| 988/1080 [1:02:19<06:17,  4.10s/it]Processing experiments:  92%|█████████▏| 989/1080 [1:02:24<06:14,  4.11s/it]Processing experiments:  92%|█████████▏| 990/1080 [1:02:28<06:13,  4.16s/it]Processing experiments:  92%|█████████▏| 991/1080 [1:02:32<06:07,  4.13s/it]Processing experiments:  92%|█████████▏| 992/1080 [1:02:35<05:46,  3.94s/it]Processing experiments:  92%|█████████▏| 993/1080 [1:02:39<05:38,  3.90s/it]Processing experiments:  92%|█████████▏| 994/1080 [1:02:43<05:25,  3.78s/it]Processing experiments:  92%|█████████▏| 995/1080 [1:02:46<05:16,  3.73s/it]Processing experiments:  92%|█████████▏| 996/1080 [1:02:52<05:55,  4.23s/it]Processing experiments:  92%|█████████▏| 997/1080 [1:02:55<05:33,  4.02s/it]Processing experiments:  92%|█████████▏| 998/1080 [1:02:59<05:28,  4.00s/it]Processing experiments:  92%|█████████▎| 999/1080 [1:03:03<05:23,  3.99s/it]Processing experiments:  93%|█████████▎| 1000/1080 [1:03:07<05:15,  3.94s/it]Processing experiments:  93%|█████████▎| 1001/1080 [1:03:11<05:02,  3.83s/it]Processing experiments:  93%|█████████▎| 1002/1080 [1:03:14<05:01,  3.87s/it]Processing experiments:  93%|█████████▎| 1003/1080 [1:03:18<04:53,  3.81s/it]Processing experiments:  93%|█████████▎| 1004/1080 [1:03:22<04:48,  3.80s/it]Processing experiments:  93%|█████████▎| 1005/1080 [1:03:26<04:43,  3.78s/it]Processing experiments:  93%|█████████▎| 1006/1080 [1:03:29<04:39,  3.77s/it]Processing experiments:  93%|█████████▎| 1007/1080 [1:03:33<04:36,  3.79s/it]Processing experiments:  93%|█████████▎| 1008/1080 [1:03:37<04:34,  3.82s/it]Processing experiments:  93%|█████████▎| 1009/1080 [1:03:41<04:29,  3.80s/it]Processing experiments:  94%|█████████▎| 1010/1080 [1:03:45<04:23,  3.76s/it]Processing experiments:  94%|█████████▎| 1011/1080 [1:03:48<04:19,  3.75s/it]Processing experiments:  94%|█████████▎| 1012/1080 [1:03:52<04:15,  3.75s/it]Processing experiments:  94%|█████████▍| 1013/1080 [1:03:56<04:11,  3.76s/it]Processing experiments:  94%|█████████▍| 1014/1080 [1:03:59<04:05,  3.72s/it]Processing experiments:  94%|█████████▍| 1015/1080 [1:04:03<04:05,  3.78s/it]Processing experiments:  94%|█████████▍| 1016/1080 [1:04:07<04:00,  3.76s/it]Processing experiments:  94%|█████████▍| 1017/1080 [1:04:11<03:54,  3.73s/it]Processing experiments:  94%|█████████▍| 1018/1080 [1:04:14<03:51,  3.73s/it]Processing experiments:  94%|█████████▍| 1019/1080 [1:04:19<03:55,  3.85s/it]Processing experiments:  94%|█████████▍| 1020/1080 [1:04:22<03:48,  3.81s/it]Processing experiments:  95%|█████████▍| 1021/1080 [1:04:26<03:47,  3.86s/it]Processing experiments:  95%|█████████▍| 1022/1080 [1:04:30<03:43,  3.86s/it]Processing experiments:  95%|█████████▍| 1023/1080 [1:04:34<03:39,  3.84s/it]Processing experiments:  95%|█████████▍| 1024/1080 [1:04:38<03:30,  3.76s/it]Processing experiments:  95%|█████████▍| 1025/1080 [1:04:41<03:27,  3.78s/it]Processing experiments:  95%|█████████▌| 1026/1080 [1:04:45<03:25,  3.81s/it]Processing experiments:  95%|█████████▌| 1027/1080 [1:04:49<03:21,  3.80s/it]Processing experiments:  95%|█████████▌| 1028/1080 [1:04:53<03:18,  3.82s/it]Processing experiments:  95%|█████████▌| 1029/1080 [1:04:56<03:08,  3.70s/it]Processing experiments:  95%|█████████▌| 1030/1080 [1:05:00<03:04,  3.68s/it]Processing experiments:  95%|█████████▌| 1031/1080 [1:05:04<02:58,  3.65s/it]Processing experiments:  96%|█████████▌| 1032/1080 [1:05:07<02:55,  3.65s/it]Processing experiments:  96%|█████████▌| 1033/1080 [1:05:11<02:49,  3.61s/it]Processing experiments:  96%|█████████▌| 1034/1080 [1:05:14<02:46,  3.62s/it]Processing experiments:  96%|█████████▌| 1035/1080 [1:05:18<02:48,  3.74s/it]Processing experiments:  96%|█████████▌| 1036/1080 [1:05:22<02:44,  3.75s/it]Processing experiments:  96%|█████████▌| 1037/1080 [1:05:26<02:43,  3.80s/it]Processing experiments:  96%|█████████▌| 1038/1080 [1:05:30<02:38,  3.77s/it]Processing experiments:  96%|█████████▌| 1039/1080 [1:05:34<02:37,  3.84s/it]Processing experiments:  96%|█████████▋| 1040/1080 [1:05:37<02:32,  3.81s/it]Processing experiments:  96%|█████████▋| 1041/1080 [1:05:41<02:26,  3.76s/it]Processing experiments:  96%|█████████▋| 1042/1080 [1:05:45<02:20,  3.70s/it]Processing experiments:  97%|█████████▋| 1043/1080 [1:05:48<02:17,  3.71s/it]Processing experiments:  97%|█████████▋| 1044/1080 [1:05:52<02:16,  3.80s/it]Processing experiments:  97%|█████████▋| 1045/1080 [1:05:56<02:10,  3.72s/it]Processing experiments:  97%|█████████▋| 1046/1080 [1:06:00<02:09,  3.82s/it]Processing experiments:  97%|█████████▋| 1047/1080 [1:06:04<02:05,  3.80s/it]Processing experiments:  97%|█████████▋| 1048/1080 [1:06:08<02:01,  3.81s/it]Processing experiments:  97%|█████████▋| 1049/1080 [1:06:11<01:56,  3.75s/it]Processing experiments:  97%|█████████▋| 1050/1080 [1:06:15<01:51,  3.72s/it]Processing experiments:  97%|█████████▋| 1051/1080 [1:06:19<01:48,  3.73s/it]Processing experiments:  97%|█████████▋| 1052/1080 [1:06:22<01:43,  3.70s/it]Processing experiments:  98%|█████████▊| 1053/1080 [1:06:26<01:41,  3.77s/it]Processing experiments:  98%|█████████▊| 1054/1080 [1:06:30<01:36,  3.71s/it]Processing experiments:  98%|█████████▊| 1055/1080 [1:06:34<01:33,  3.73s/it]Processing experiments:  98%|█████████▊| 1056/1080 [1:06:37<01:29,  3.75s/it]Processing experiments:  98%|█████████▊| 1057/1080 [1:06:41<01:27,  3.80s/it]Processing experiments:  98%|█████████▊| 1058/1080 [1:06:45<01:22,  3.74s/it]Processing experiments:  98%|█████████▊| 1059/1080 [1:06:49<01:18,  3.75s/it]Processing experiments:  98%|█████████▊| 1060/1080 [1:06:53<01:17,  3.89s/it]Processing experiments:  98%|█████████▊| 1061/1080 [1:06:57<01:13,  3.87s/it]Processing experiments:  98%|█████████▊| 1062/1080 [1:07:00<01:08,  3.80s/it]Processing experiments:  98%|█████████▊| 1063/1080 [1:07:04<01:05,  3.85s/it]Processing experiments:  99%|█████████▊| 1064/1080 [1:07:08<01:02,  3.91s/it]Processing experiments:  99%|█████████▊| 1065/1080 [1:07:12<00:57,  3.84s/it]Processing experiments:  99%|█████████▊| 1066/1080 [1:07:16<00:53,  3.79s/it]Processing experiments:  99%|█████████▉| 1067/1080 [1:07:19<00:48,  3.71s/it]Processing experiments:  99%|█████████▉| 1068/1080 [1:07:23<00:44,  3.70s/it]Processing experiments:  99%|█████████▉| 1069/1080 [1:07:26<00:40,  3.69s/it]Processing experiments:  99%|█████████▉| 1070/1080 [1:07:30<00:36,  3.67s/it]Processing experiments:  99%|█████████▉| 1071/1080 [1:07:34<00:33,  3.75s/it]Processing experiments:  99%|█████████▉| 1072/1080 [1:07:38<00:29,  3.70s/it]Processing experiments:  99%|█████████▉| 1073/1080 [1:07:41<00:26,  3.73s/it]Processing experiments:  99%|█████████▉| 1074/1080 [1:07:45<00:22,  3.77s/it]Processing experiments: 100%|█████████▉| 1075/1080 [1:07:49<00:18,  3.71s/it]Processing experiments: 100%|█████████▉| 1076/1080 [1:07:53<00:14,  3.69s/it]Processing experiments: 100%|█████████▉| 1077/1080 [1:07:56<00:10,  3.61s/it]Processing experiments: 100%|█████████▉| 1078/1080 [1:08:00<00:07,  3.62s/it]Processing experiments: 100%|█████████▉| 1079/1080 [1:08:03<00:03,  3.53s/it]Processing experiments: 100%|██████████| 1080/1080 [1:08:07<00:00,  3.59s/it]Processing experiments: 100%|██████████| 1080/1080 [1:08:07<00:00,  3.78s/it]
+
+Processing: E01S01A06
+
+Processing: E01S01A07
+
+Processing: E01S01A08
+
+Processing: E01S01A09
+
+Processing: E01S01A10
+
+Processing: E01S01A11
+
+Processing: E01S01A12
+
+Processing: E01S01A13
+
+Processing: E01S01A14
+
+Processing: E01S01A15
+
+Processing: E01S01A16
+
+Processing: E01S01A17
+
+Processing: E01S01A18
+
+Processing: E01S01A19
+
+Processing: E01S01A20
+
+Processing: E01S01A21
+
+Processing: E01S01A22
+
+Processing: E01S01A23
+
+Processing: E01S01A24
+
+Processing: E01S01A25
+
+Processing: E01S01A26
+
+Processing: E01S01A27
+
+Processing: E01S02A01
+
+Processing: E01S02A02
+
+Processing: E01S02A03
+
+Processing: E01S02A04
+
+Processing: E01S02A05
+
+Processing: E01S02A06
+
+Processing: E01S02A07
+
+Processing: E01S02A08
+
+Processing: E01S02A09
+
+Processing: E01S02A10
+
+Processing: E01S02A11
+
+Processing: E01S02A12
+
+Processing: E01S02A13
+
+Processing: E01S02A14
+
+Processing: E01S02A15
+
+Processing: E01S02A16
+
+Processing: E01S02A17
+
+Processing: E01S02A18
+
+Processing: E01S02A19
+
+Processing: E01S02A20
+
+Processing: E01S02A21
+
+Processing: E01S02A22
+
+Processing: E01S02A23
+
+Processing: E01S02A24
+
+Processing: E01S02A25
+
+Processing: E01S02A26
+
+Processing: E01S02A27
+
+Processing: E01S03A01
+
+Processing: E01S03A02
+
+Processing: E01S03A03
+
+Processing: E01S03A04
+
+Processing: E01S03A05
+
+Processing: E01S03A06
+
+Processing: E01S03A07
+
+Processing: E01S03A08
+
+Processing: E01S03A09
+
+Processing: E01S03A10
+
+Processing: E01S03A11
+
+Processing: E01S03A12
+
+Processing: E01S03A13
+
+Processing: E01S03A14
+
+Processing: E01S03A15
+
+Processing: E01S03A16
+
+Processing: E01S03A17
+
+Processing: E01S03A18
+
+Processing: E01S03A19
+
+Processing: E01S03A20
+
+Processing: E01S03A21
+
+Processing: E01S03A22
+
+Processing: E01S03A23
+
+Processing: E01S03A24
+
+Processing: E01S03A25
+
+Processing: E01S03A26
+
+Processing: E01S03A27
+
+Processing: E01S04A01
+
+Processing: E01S04A02
+
+Processing: E01S04A03
+
+Processing: E01S04A04
+
+Processing: E01S04A05
+
+Processing: E01S04A06
+
+Processing: E01S04A07
+
+Processing: E01S04A08
+
+Processing: E01S04A09
+
+Processing: E01S04A10
+
+Processing: E01S04A11
+
+Processing: E01S04A12
+
+Processing: E01S04A13
+
+Processing: E01S04A14
+
+Processing: E01S04A15
+
+Processing: E01S04A16
+
+Processing: E01S04A17
+
+Processing: E01S04A18
+
+Processing: E01S04A19
+
+Processing: E01S04A20
+
+Processing: E01S04A21
+
+Processing: E01S04A22
+
+Processing: E01S04A23
+
+Processing: E01S04A24
+
+Processing: E01S04A25
+
+Processing: E01S04A26
+
+Processing: E01S04A27
+
+Processing: E01S05A01
+
+Processing: E01S05A02
+
+Processing: E01S05A03
+
+Processing: E01S05A04
+
+Processing: E01S05A05
+
+Processing: E01S05A06
+
+Processing: E01S05A07
+
+Processing: E01S05A08
+
+Processing: E01S05A09
+
+Processing: E01S05A10
+
+Processing: E01S05A11
+
+Processing: E01S05A12
+
+Processing: E01S05A13
+
+Processing: E01S05A14
+
+Processing: E01S05A15
+
+Processing: E01S05A16
+
+Processing: E01S05A17
+
+Processing: E01S05A18
+
+Processing: E01S05A19
+
+Processing: E01S05A20
+
+Processing: E01S05A21
+
+Processing: E01S05A22
+
+Processing: E01S05A23
+
+Processing: E01S05A24
+
+Processing: E01S05A25
+
+Processing: E01S05A26
+
+Processing: E01S05A27
+
+Processing: E01S06A01
+
+Processing: E01S06A02
+
+Processing: E01S06A03
+
+Processing: E01S06A04
+
+Processing: E01S06A05
+
+Processing: E01S06A06
+
+Processing: E01S06A07
+
+Processing: E01S06A08
+
+Processing: E01S06A09
+
+Processing: E01S06A10
+
+Processing: E01S06A11
+
+Processing: E01S06A12
+
+Processing: E01S06A13
+
+Processing: E01S06A14
+
+Processing: E01S06A15
+
+Processing: E01S06A16
+
+Processing: E01S06A17
+
+Processing: E01S06A18
+
+Processing: E01S06A19
+
+Processing: E01S06A20
+
+Processing: E01S06A21
+
+Processing: E01S06A22
+
+Processing: E01S06A23
+
+Processing: E01S06A24
+
+Processing: E01S06A25
+
+Processing: E01S06A26
+
+Processing: E01S06A27
+
+Processing: E01S07A01
+
+Processing: E01S07A02
+
+Processing: E01S07A03
+
+Processing: E01S07A04
+
+Processing: E01S07A05
+
+Processing: E01S07A06
+
+Processing: E01S07A07
+
+Processing: E01S07A08
+
+Processing: E01S07A09
+
+Processing: E01S07A10
+
+Processing: E01S07A11
+
+Processing: E01S07A12
+
+Processing: E01S07A13
+
+Processing: E01S07A14
+
+Processing: E01S07A15
+
+Processing: E01S07A16
+
+Processing: E01S07A17
+
+Processing: E01S07A18
+
+Processing: E01S07A19
+
+Processing: E01S07A20
+
+Processing: E01S07A21
+
+Processing: E01S07A22
+
+Processing: E01S07A23
+
+Processing: E01S07A24
+
+Processing: E01S07A25
+
+Processing: E01S07A26
+
+Processing: E01S07A27
+
+Processing: E01S08A01
+
+Processing: E01S08A02
+
+Processing: E01S08A03
+
+Processing: E01S08A04
+
+Processing: E01S08A05
+
+Processing: E01S08A06
+
+Processing: E01S08A07
+
+Processing: E01S08A08
+
+Processing: E01S08A09
+
+Processing: E01S08A10
+
+Processing: E01S08A11
+
+Processing: E01S08A12
+
+Processing: E01S08A13
+
+Processing: E01S08A14
+
+Processing: E01S08A15
+
+Processing: E01S08A16
+
+Processing: E01S08A17
+
+Processing: E01S08A18
+
+Processing: E01S08A19
+
+Processing: E01S08A20
+
+Processing: E01S08A21
+
+Processing: E01S08A22
+
+Processing: E01S08A23
+
+Processing: E01S08A24
+
+Processing: E01S08A25
+
+Processing: E01S08A26
+
+Processing: E01S08A27
+
+Processing: E01S09A01
+
+Processing: E01S09A02
+
+Processing: E01S09A03
+
+Processing: E01S09A04
+
+Processing: E01S09A05
+
+Processing: E01S09A06
+
+Processing: E01S09A07
+
+Processing: E01S09A08
+
+Processing: E01S09A09
+
+Processing: E01S09A10
+
+Processing: E01S09A11
+
+Processing: E01S09A12
+
+Processing: E01S09A13
+
+Processing: E01S09A14
+
+Processing: E01S09A15
+
+Processing: E01S09A16
+
+Processing: E01S09A17
+
+Processing: E01S09A18
+
+Processing: E01S09A19
+
+Processing: E01S09A20
+
+Processing: E01S09A21
+
+Processing: E01S09A22
+
+Processing: E01S09A23
+
+Processing: E01S09A24
+
+Processing: E01S09A25
+
+Processing: E01S09A26
+
+Processing: E01S09A27
+
+Processing: E01S10A01
+
+Processing: E01S10A02
+
+Processing: E01S10A03
+
+Processing: E01S10A04
+
+Processing: E01S10A05
+
+Processing: E01S10A06
+
+Processing: E01S10A07
+
+Processing: E01S10A08
+
+Processing: E01S10A09
+
+Processing: E01S10A10
+
+Processing: E01S10A11
+
+Processing: E01S10A12
+
+Processing: E01S10A13
+
+Processing: E01S10A14
+
+Processing: E01S10A15
+
+Processing: E01S10A16
+
+Processing: E01S10A17
+
+Processing: E01S10A18
+
+Processing: E01S10A19
+
+Processing: E01S10A20
+
+Processing: E01S10A21
+
+Processing: E01S10A22
+
+Processing: E01S10A23
+
+Processing: E01S10A24
+
+Processing: E01S10A25
+
+Processing: E01S10A26
+
+Processing: E01S10A27
+
+Processing: E02S11A01
+
+Processing: E02S11A02
+
+Processing: E02S11A03
+
+Processing: E02S11A04
+
+Processing: E02S11A05
+
+Processing: E02S11A06
+
+Processing: E02S11A07
+
+Processing: E02S11A08
+
+Processing: E02S11A09
+
+Processing: E02S11A10
+
+Processing: E02S11A11
+
+Processing: E02S11A12
+
+Processing: E02S11A13
+
+Processing: E02S11A14
+
+Processing: E02S11A15
+
+Processing: E02S11A16
+
+Processing: E02S11A17
+
+Processing: E02S11A18
+
+Processing: E02S11A19
+
+Processing: E02S11A20
+
+Processing: E02S11A21
+
+Processing: E02S11A22
+
+Processing: E02S11A23
+
+Processing: E02S11A24
+
+Processing: E02S11A25
+
+Processing: E02S11A26
+
+Processing: E02S11A27
+
+Processing: E02S12A01
+
+Processing: E02S12A02
+
+Processing: E02S12A03
+
+Processing: E02S12A04
+
+Processing: E02S12A05
+
+Processing: E02S12A06
+
+Processing: E02S12A07
+
+Processing: E02S12A08
+
+Processing: E02S12A09
+
+Processing: E02S12A10
+
+Processing: E02S12A11
+
+Processing: E02S12A12
+
+Processing: E02S12A13
+
+Processing: E02S12A14
+
+Processing: E02S12A15
+
+Processing: E02S12A16
+
+Processing: E02S12A17
+
+Processing: E02S12A18
+
+Processing: E02S12A19
+
+Processing: E02S12A20
+
+Processing: E02S12A21
+
+Processing: E02S12A22
+
+Processing: E02S12A23
+
+Processing: E02S12A24
+
+Processing: E02S12A25
+
+Processing: E02S12A26
+
+Processing: E02S12A27
+
+Processing: E02S13A01
+
+Processing: E02S13A02
+
+Processing: E02S13A03
+
+Processing: E02S13A04
+
+Processing: E02S13A05
+
+Processing: E02S13A06
+
+Processing: E02S13A07
+
+Processing: E02S13A08
+
+Processing: E02S13A09
+
+Processing: E02S13A10
+
+Processing: E02S13A11
+
+Processing: E02S13A12
+
+Processing: E02S13A13
+
+Processing: E02S13A14
+
+Processing: E02S13A15
+
+Processing: E02S13A16
+
+Processing: E02S13A17
+
+Processing: E02S13A18
+
+Processing: E02S13A19
+
+Processing: E02S13A20
+
+Processing: E02S13A21
+
+Processing: E02S13A22
+
+Processing: E02S13A23
+
+Processing: E02S13A24
+
+Processing: E02S13A25
+
+Processing: E02S13A26
+
+Processing: E02S13A27
+
+Processing: E02S14A01
+
+Processing: E02S14A02
+
+Processing: E02S14A03
+
+Processing: E02S14A04
+
+Processing: E02S14A05
+
+Processing: E02S14A06
+
+Processing: E02S14A07
+
+Processing: E02S14A08
+
+Processing: E02S14A09
+
+Processing: E02S14A10
+
+Processing: E02S14A11
+
+Processing: E02S14A12
+
+Processing: E02S14A13
+
+Processing: E02S14A14
+
+Processing: E02S14A15
+
+Processing: E02S14A16
+
+Processing: E02S14A17
+
+Processing: E02S14A18
+
+Processing: E02S14A19
+
+Processing: E02S14A20
+
+Processing: E02S14A21
+
+Processing: E02S14A22
+
+Processing: E02S14A23
+
+Processing: E02S14A24
+
+Processing: E02S14A25
+
+Processing: E02S14A26
+
+Processing: E02S14A27
+
+Processing: E02S15A01
+
+Processing: E02S15A02
+
+Processing: E02S15A03
+
+Processing: E02S15A04
+
+Processing: E02S15A05
+
+Processing: E02S15A06
+
+Processing: E02S15A07
+
+Processing: E02S15A08
+
+Processing: E02S15A09
+
+Processing: E02S15A10
+
+Processing: E02S15A11
+
+Processing: E02S15A12
+
+Processing: E02S15A13
+
+Processing: E02S15A14
+
+Processing: E02S15A15
+
+Processing: E02S15A16
+
+Processing: E02S15A17
+
+Processing: E02S15A18
+
+Processing: E02S15A19
+
+Processing: E02S15A20
+
+Processing: E02S15A21
+
+Processing: E02S15A22
+
+Processing: E02S15A23
+
+Processing: E02S15A24
+
+Processing: E02S15A25
+
+Processing: E02S15A26
+
+Processing: E02S15A27
+
+Processing: E02S16A01
+
+Processing: E02S16A02
+
+Processing: E02S16A03
+
+Processing: E02S16A04
+
+Processing: E02S16A05
+
+Processing: E02S16A06
+
+Processing: E02S16A07
+
+Processing: E02S16A08
+
+Processing: E02S16A09
+
+Processing: E02S16A10
+
+Processing: E02S16A11
+
+Processing: E02S16A12
+
+Processing: E02S16A13
+
+Processing: E02S16A14
+
+Processing: E02S16A15
+
+Processing: E02S16A16
+
+Processing: E02S16A17
+
+Processing: E02S16A18
+
+Processing: E02S16A19
+
+Processing: E02S16A20
+
+Processing: E02S16A21
+
+Processing: E02S16A22
+
+Processing: E02S16A23
+
+Processing: E02S16A24
+
+Processing: E02S16A25
+
+Processing: E02S16A26
+
+Processing: E02S16A27
+
+Processing: E02S17A01
+
+Processing: E02S17A02
+
+Processing: E02S17A03
+
+Processing: E02S17A04
+
+Processing: E02S17A05
+
+Processing: E02S17A06
+
+Processing: E02S17A07
+
+Processing: E02S17A08
+
+Processing: E02S17A09
+
+Processing: E02S17A10
+
+Processing: E02S17A11
+
+Processing: E02S17A12
+
+Processing: E02S17A13
+
+Processing: E02S17A14
+
+Processing: E02S17A15
+
+Processing: E02S17A16
+
+Processing: E02S17A17
+
+Processing: E02S17A18
+
+Processing: E02S17A19
+
+Processing: E02S17A20
+
+Processing: E02S17A21
+
+Processing: E02S17A22
+
+Processing: E02S17A23
+
+Processing: E02S17A24
+
+Processing: E02S17A25
+
+Processing: E02S17A26
+
+Processing: E02S17A27
+
+Processing: E02S18A01
+
+Processing: E02S18A02
+
+Processing: E02S18A03
+
+Processing: E02S18A04
+
+Processing: E02S18A05
+
+Processing: E02S18A06
+
+Processing: E02S18A07
+
+Processing: E02S18A08
+
+Processing: E02S18A09
+
+Processing: E02S18A10
+
+Processing: E02S18A11
+
+Processing: E02S18A12
+
+Processing: E02S18A13
+
+Processing: E02S18A14
+
+Processing: E02S18A15
+
+Processing: E02S18A16
+
+Processing: E02S18A17
+
+Processing: E02S18A18
+
+Processing: E02S18A19
+
+Processing: E02S18A20
+
+Processing: E02S18A21
+
+Processing: E02S18A22
+
+Processing: E02S18A23
+
+Processing: E02S18A24
+
+Processing: E02S18A25
+
+Processing: E02S18A26
+
+Processing: E02S18A27
+
+Processing: E02S19A01
+
+Processing: E02S19A02
+
+Processing: E02S19A03
+
+Processing: E02S19A04
+
+Processing: E02S19A05
+
+Processing: E02S19A06
+
+Processing: E02S19A07
+
+Processing: E02S19A08
+
+Processing: E02S19A09
+
+Processing: E02S19A10
+
+Processing: E02S19A11
+
+Processing: E02S19A12
+
+Processing: E02S19A13
+
+Processing: E02S19A14
+
+Processing: E02S19A15
+
+Processing: E02S19A16
+
+Processing: E02S19A17
+
+Processing: E02S19A18
+
+Processing: E02S19A19
+
+Processing: E02S19A20
+
+Processing: E02S19A21
+
+Processing: E02S19A22
+
+Processing: E02S19A23
+
+Processing: E02S19A24
+
+Processing: E02S19A25
+
+Processing: E02S19A26
+
+Processing: E02S19A27
+
+Processing: E02S20A01
+
+Processing: E02S20A02
+
+Processing: E02S20A03
+
+Processing: E02S20A04
+
+Processing: E02S20A05
+
+Processing: E02S20A06
+
+Processing: E02S20A07
+
+Processing: E02S20A08
+
+Processing: E02S20A09
+
+Processing: E02S20A10
+
+Processing: E02S20A11
+
+Processing: E02S20A12
+
+Processing: E02S20A13
+
+Processing: E02S20A14
+
+Processing: E02S20A15
+
+Processing: E02S20A16
+
+Processing: E02S20A17
+
+Processing: E02S20A18
+
+Processing: E02S20A19
+
+Processing: E02S20A20
+
+Processing: E02S20A21
+
+Processing: E02S20A22
+
+Processing: E02S20A23
+
+Processing: E02S20A24
+
+Processing: E02S20A25
+
+Processing: E02S20A26
+
+Processing: E02S20A27
+
+Processing: E03S21A01
+
+Processing: E03S21A02
+
+Processing: E03S21A03
+
+Processing: E03S21A04
+
+Processing: E03S21A05
+
+Processing: E03S21A06
+
+Processing: E03S21A07
+
+Processing: E03S21A08
+
+Processing: E03S21A09
+
+Processing: E03S21A10
+
+Processing: E03S21A11
+
+Processing: E03S21A12
+
+Processing: E03S21A13
+
+Processing: E03S21A14
+
+Processing: E03S21A15
+
+Processing: E03S21A16
+
+Processing: E03S21A17
+
+Processing: E03S21A18
+
+Processing: E03S21A19
+
+Processing: E03S21A20
+
+Processing: E03S21A21
+
+Processing: E03S21A22
+
+Processing: E03S21A23
+
+Processing: E03S21A24
+
+Processing: E03S21A25
+
+Processing: E03S21A26
+
+Processing: E03S21A27
+
+Processing: E03S22A01
+
+Processing: E03S22A02
+
+Processing: E03S22A03
+
+Processing: E03S22A04
+
+Processing: E03S22A05
+
+Processing: E03S22A06
+
+Processing: E03S22A07
+
+Processing: E03S22A08
+
+Processing: E03S22A09
+
+Processing: E03S22A10
+
+Processing: E03S22A11
+
+Processing: E03S22A12
+
+Processing: E03S22A13
+
+Processing: E03S22A14
+
+Processing: E03S22A15
+
+Processing: E03S22A16
+
+Processing: E03S22A17
+
+Processing: E03S22A18
+
+Processing: E03S22A19
+
+Processing: E03S22A20
+
+Processing: E03S22A21
+
+Processing: E03S22A22
+
+Processing: E03S22A23
+
+Processing: E03S22A24
+
+Processing: E03S22A25
+
+Processing: E03S22A26
+
+Processing: E03S22A27
+
+Processing: E03S23A01
+
+Processing: E03S23A02
+
+Processing: E03S23A03
+
+Processing: E03S23A04
+
+Processing: E03S23A05
+
+Processing: E03S23A06
+
+Processing: E03S23A07
+
+Processing: E03S23A08
+
+Processing: E03S23A09
+
+Processing: E03S23A10
+
+Processing: E03S23A11
+
+Processing: E03S23A12
+
+Processing: E03S23A13
+
+Processing: E03S23A14
+
+Processing: E03S23A15
+
+Processing: E03S23A16
+
+Processing: E03S23A17
+
+Processing: E03S23A18
+
+Processing: E03S23A19
+
+Processing: E03S23A20
+
+Processing: E03S23A21
+
+Processing: E03S23A22
+
+Processing: E03S23A23
+
+Processing: E03S23A24
+
+Processing: E03S23A25
+
+Processing: E03S23A26
+
+Processing: E03S23A27
+
+Processing: E03S24A01
+
+Processing: E03S24A02
+
+Processing: E03S24A03
+
+Processing: E03S24A04
+
+Processing: E03S24A05
+
+Processing: E03S24A06
+
+Processing: E03S24A07
+
+Processing: E03S24A08
+
+Processing: E03S24A09
+
+Processing: E03S24A10
+
+Processing: E03S24A11
+
+Processing: E03S24A12
+
+Processing: E03S24A13
+
+Processing: E03S24A14
+
+Processing: E03S24A15
+
+Processing: E03S24A16
+
+Processing: E03S24A17
+
+Processing: E03S24A18
+
+Processing: E03S24A19
+
+Processing: E03S24A20
+
+Processing: E03S24A21
+
+Processing: E03S24A22
+
+Processing: E03S24A23
+
+Processing: E03S24A24
+
+Processing: E03S24A25
+
+Processing: E03S24A26
+
+Processing: E03S24A27
+
+Processing: E03S25A01
+
+Processing: E03S25A02
+
+Processing: E03S25A03
+
+Processing: E03S25A04
+
+Processing: E03S25A05
+
+Processing: E03S25A06
+
+Processing: E03S25A07
+
+Processing: E03S25A08
+
+Processing: E03S25A09
+
+Processing: E03S25A10
+
+Processing: E03S25A11
+
+Processing: E03S25A12
+
+Processing: E03S25A13
+
+Processing: E03S25A14
+
+Processing: E03S25A15
+
+Processing: E03S25A16
+
+Processing: E03S25A17
+
+Processing: E03S25A18
+
+Processing: E03S25A19
+
+Processing: E03S25A20
+
+Processing: E03S25A21
+
+Processing: E03S25A22
+
+Processing: E03S25A23
+
+Processing: E03S25A24
+
+Processing: E03S25A25
+
+Processing: E03S25A26
+
+Processing: E03S25A27
+
+Processing: E03S26A01
+
+Processing: E03S26A02
+
+Processing: E03S26A03
+
+Processing: E03S26A04
+
+Processing: E03S26A05
+
+Processing: E03S26A06
+
+Processing: E03S26A07
+
+Processing: E03S26A08
+
+Processing: E03S26A09
+
+Processing: E03S26A10
+
+Processing: E03S26A11
+
+Processing: E03S26A12
+
+Processing: E03S26A13
+
+Processing: E03S26A14
+
+Processing: E03S26A15
+
+Processing: E03S26A16
+
+Processing: E03S26A17
+
+Processing: E03S26A18
+
+Processing: E03S26A19
+
+Processing: E03S26A20
+
+Processing: E03S26A21
+
+Processing: E03S26A22
+
+Processing: E03S26A23
+
+Processing: E03S26A24
+
+Processing: E03S26A25
+
+Processing: E03S26A26
+
+Processing: E03S26A27
+
+Processing: E03S27A01
+
+Processing: E03S27A02
+
+Processing: E03S27A03
+
+Processing: E03S27A04
+
+Processing: E03S27A05
+
+Processing: E03S27A06
+
+Processing: E03S27A07
+
+Processing: E03S27A08
+
+Processing: E03S27A09
+
+Processing: E03S27A10
+
+Processing: E03S27A11
+
+Processing: E03S27A12
+
+Processing: E03S27A13
+
+Processing: E03S27A14
+
+Processing: E03S27A15
+
+Processing: E03S27A16
+
+Processing: E03S27A17
+
+Processing: E03S27A18
+
+Processing: E03S27A19
+
+Processing: E03S27A20
+
+Processing: E03S27A21
+
+Processing: E03S27A22
+
+Processing: E03S27A23
+
+Processing: E03S27A24
+
+Processing: E03S27A25
+
+Processing: E03S27A26
+
+Processing: E03S27A27
+
+Processing: E03S28A01
+
+Processing: E03S28A02
+
+Processing: E03S28A03
+
+Processing: E03S28A04
+
+Processing: E03S28A05
+
+Processing: E03S28A06
+
+Processing: E03S28A07
+
+Processing: E03S28A08
+
+Processing: E03S28A09
+
+Processing: E03S28A10
+
+Processing: E03S28A11
+
+Processing: E03S28A12
+
+Processing: E03S28A13
+
+Processing: E03S28A14
+
+Processing: E03S28A15
+
+Processing: E03S28A16
+
+Processing: E03S28A17
+
+Processing: E03S28A18
+
+Processing: E03S28A19
+
+Processing: E03S28A20
+
+Processing: E03S28A21
+
+Processing: E03S28A22
+
+Processing: E03S28A23
+
+Processing: E03S28A24
+
+Processing: E03S28A25
+
+Processing: E03S28A26
+
+Processing: E03S28A27
+
+Processing: E03S29A01
+
+Processing: E03S29A02
+
+Processing: E03S29A03
+
+Processing: E03S29A04
+
+Processing: E03S29A05
+
+Processing: E03S29A06
+
+Processing: E03S29A07
+
+Processing: E03S29A08
+
+Processing: E03S29A09
+
+Processing: E03S29A10
+
+Processing: E03S29A11
+
+Processing: E03S29A12
+
+Processing: E03S29A13
+
+Processing: E03S29A14
+
+Processing: E03S29A15
+
+Processing: E03S29A16
+
+Processing: E03S29A17
+
+Processing: E03S29A18
+
+Processing: E03S29A19
+
+Processing: E03S29A20
+
+Processing: E03S29A21
+
+Processing: E03S29A22
+
+Processing: E03S29A23
+
+Processing: E03S29A24
+
+Processing: E03S29A25
+
+Processing: E03S29A26
+
+Processing: E03S29A27
+
+Processing: E03S30A01
+
+Processing: E03S30A02
+
+Processing: E03S30A03
+
+Processing: E03S30A04
+
+Processing: E03S30A05
+
+Processing: E03S30A06
+
+Processing: E03S30A07
+
+Processing: E03S30A08
+
+Processing: E03S30A09
+
+Processing: E03S30A10
+
+Processing: E03S30A11
+
+Processing: E03S30A12
+
+Processing: E03S30A13
+
+Processing: E03S30A14
+
+Processing: E03S30A15
+
+Processing: E03S30A16
+
+Processing: E03S30A17
+
+Processing: E03S30A18
+
+Processing: E03S30A19
+
+Processing: E03S30A20
+
+Processing: E03S30A21
+
+Processing: E03S30A22
+
+Processing: E03S30A23
+
+Processing: E03S30A24
+
+Processing: E03S30A25
+
+Processing: E03S30A26
+
+Processing: E03S30A27
+
+Processing: E04S31A01
+
+Processing: E04S31A02
+
+Processing: E04S31A03
+
+Processing: E04S31A04
+
+Processing: E04S31A05
+
+Processing: E04S31A06
+
+Processing: E04S31A07
+
+Processing: E04S31A08
+
+Processing: E04S31A09
+
+Processing: E04S31A10
+
+Processing: E04S31A11
+
+Processing: E04S31A12
+
+Processing: E04S31A13
+
+Processing: E04S31A14
+
+Processing: E04S31A15
+
+Processing: E04S31A16
+
+Processing: E04S31A17
+
+Processing: E04S31A18
+
+Processing: E04S31A19
+
+Processing: E04S31A20
+
+Processing: E04S31A21
+
+Processing: E04S31A22
+
+Processing: E04S31A23
+
+Processing: E04S31A24
+
+Processing: E04S31A25
+
+Processing: E04S31A26
+
+Processing: E04S31A27
+
+Processing: E04S32A01
+
+Processing: E04S32A02
+
+Processing: E04S32A03
+
+Processing: E04S32A04
+
+Processing: E04S32A05
+
+Processing: E04S32A06
+
+Processing: E04S32A07
+
+Processing: E04S32A08
+
+Processing: E04S32A09
+
+Processing: E04S32A10
+
+Processing: E04S32A11
+
+Processing: E04S32A12
+
+Processing: E04S32A13
+
+Processing: E04S32A14
+
+Processing: E04S32A15
+
+Processing: E04S32A16
+
+Processing: E04S32A17
+
+Processing: E04S32A18
+
+Processing: E04S32A19
+
+Processing: E04S32A20
+
+Processing: E04S32A21
+
+Processing: E04S32A22
+
+Processing: E04S32A23
+
+Processing: E04S32A24
+
+Processing: E04S32A25
+
+Processing: E04S32A26
+
+Processing: E04S32A27
+
+Processing: E04S33A01
+
+Processing: E04S33A02
+
+Processing: E04S33A03
+
+Processing: E04S33A04
+
+Processing: E04S33A05
+
+Processing: E04S33A06
+
+Processing: E04S33A07
+
+Processing: E04S33A08
+
+Processing: E04S33A09
+
+Processing: E04S33A10
+
+Processing: E04S33A11
+
+Processing: E04S33A12
+
+Processing: E04S33A13
+
+Processing: E04S33A14
+
+Processing: E04S33A15
+
+Processing: E04S33A16
+
+Processing: E04S33A17
+
+Processing: E04S33A18
+
+Processing: E04S33A19
+
+Processing: E04S33A20
+
+Processing: E04S33A21
+
+Processing: E04S33A22
+
+Processing: E04S33A23
+
+Processing: E04S33A24
+
+Processing: E04S33A25
+
+Processing: E04S33A26
+
+Processing: E04S33A27
+
+Processing: E04S34A01
+
+Processing: E04S34A02
+
+Processing: E04S34A03
+
+Processing: E04S34A04
+
+Processing: E04S34A05
+
+Processing: E04S34A06
+
+Processing: E04S34A07
+
+Processing: E04S34A08
+
+Processing: E04S34A09
+
+Processing: E04S34A10
+
+Processing: E04S34A11
+
+Processing: E04S34A12
+
+Processing: E04S34A13
+
+Processing: E04S34A14
+
+Processing: E04S34A15
+
+Processing: E04S34A16
+
+Processing: E04S34A17
+
+Processing: E04S34A18
+
+Processing: E04S34A19
+
+Processing: E04S34A20
+
+Processing: E04S34A21
+
+Processing: E04S34A22
+
+Processing: E04S34A23
+
+Processing: E04S34A24
+
+Processing: E04S34A25
+
+Processing: E04S34A26
+
+Processing: E04S34A27
+
+Processing: E04S35A01
+
+Processing: E04S35A02
+
+Processing: E04S35A03
+
+Processing: E04S35A04
+
+Processing: E04S35A05
+
+Processing: E04S35A06
+
+Processing: E04S35A07
+
+Processing: E04S35A08
+
+Processing: E04S35A09
+
+Processing: E04S35A10
+
+Processing: E04S35A11
+
+Processing: E04S35A12
+
+Processing: E04S35A13
+
+Processing: E04S35A14
+
+Processing: E04S35A15
+
+Processing: E04S35A16
+
+Processing: E04S35A17
+
+Processing: E04S35A18
+
+Processing: E04S35A19
+
+Processing: E04S35A20
+
+Processing: E04S35A21
+
+Processing: E04S35A22
+
+Processing: E04S35A23
+
+Processing: E04S35A24
+
+Processing: E04S35A25
+
+Processing: E04S35A26
+
+Processing: E04S35A27
+
+Processing: E04S36A01
+
+Processing: E04S36A02
+
+Processing: E04S36A03
+
+Processing: E04S36A04
+
+Processing: E04S36A05
+
+Processing: E04S36A06
+
+Processing: E04S36A07
+
+Processing: E04S36A08
+
+Processing: E04S36A09
+
+Processing: E04S36A10
+
+Processing: E04S36A11
+
+Processing: E04S36A12
+
+Processing: E04S36A13
+
+Processing: E04S36A14
+
+Processing: E04S36A15
+
+Processing: E04S36A16
+
+Processing: E04S36A17
+
+Processing: E04S36A18
+
+Processing: E04S36A19
+
+Processing: E04S36A20
+
+Processing: E04S36A21
+
+Processing: E04S36A22
+
+Processing: E04S36A23
+
+Processing: E04S36A24
+
+Processing: E04S36A25
+
+Processing: E04S36A26
+
+Processing: E04S36A27
+
+Processing: E04S37A01
+
+Processing: E04S37A02
+
+Processing: E04S37A03
+
+Processing: E04S37A04
+
+Processing: E04S37A05
+
+Processing: E04S37A06
+
+Processing: E04S37A07
+
+Processing: E04S37A08
+
+Processing: E04S37A09
+
+Processing: E04S37A10
+
+Processing: E04S37A11
+
+Processing: E04S37A12
+
+Processing: E04S37A13
+
+Processing: E04S37A14
+
+Processing: E04S37A15
+
+Processing: E04S37A16
+
+Processing: E04S37A17
+
+Processing: E04S37A18
+
+Processing: E04S37A19
+
+Processing: E04S37A20
+
+Processing: E04S37A21
+
+Processing: E04S37A22
+
+Processing: E04S37A23
+
+Processing: E04S37A24
+
+Processing: E04S37A25
+
+Processing: E04S37A26
+
+Processing: E04S37A27
+
+Processing: E04S38A01
+
+Processing: E04S38A02
+
+Processing: E04S38A03
+
+Processing: E04S38A04
+
+Processing: E04S38A05
+
+Processing: E04S38A06
+
+Processing: E04S38A07
+
+Processing: E04S38A08
+
+Processing: E04S38A09
+
+Processing: E04S38A10
+
+Processing: E04S38A11
+
+Processing: E04S38A12
+
+Processing: E04S38A13
+
+Processing: E04S38A14
+
+Processing: E04S38A15
+
+Processing: E04S38A16
+
+Processing: E04S38A17
+
+Processing: E04S38A18
+
+Processing: E04S38A19
+
+Processing: E04S38A20
+
+Processing: E04S38A21
+
+Processing: E04S38A22
+
+Processing: E04S38A23
+
+Processing: E04S38A24
+
+Processing: E04S38A25
+
+Processing: E04S38A26
+
+Processing: E04S38A27
+
+Processing: E04S39A01
+
+Processing: E04S39A02
+
+Processing: E04S39A03
+
+Processing: E04S39A04
+
+Processing: E04S39A05
+
+Processing: E04S39A06
+
+Processing: E04S39A07
+
+Processing: E04S39A08
+
+Processing: E04S39A09
+
+Processing: E04S39A10
+
+Processing: E04S39A11
+
+Processing: E04S39A12
+
+Processing: E04S39A13
+
+Processing: E04S39A14
+
+Processing: E04S39A15
+
+Processing: E04S39A16
+
+Processing: E04S39A17
+
+Processing: E04S39A18
+
+Processing: E04S39A19
+
+Processing: E04S39A20
+
+Processing: E04S39A21
+
+Processing: E04S39A22
+
+Processing: E04S39A23
+
+Processing: E04S39A24
+
+Processing: E04S39A25
+
+Processing: E04S39A26
+
+Processing: E04S39A27
+
+Processing: E04S40A01
+
+Processing: E04S40A02
+
+Processing: E04S40A03
+
+Processing: E04S40A04
+
+Processing: E04S40A05
+
+Processing: E04S40A06
+
+Processing: E04S40A07
+
+Processing: E04S40A08
+
+Processing: E04S40A09
+
+Processing: E04S40A10
+
+Processing: E04S40A11
+
+Processing: E04S40A12
+
+Processing: E04S40A13
+
+Processing: E04S40A14
+
+Processing: E04S40A15
+
+Processing: E04S40A16
+
+Processing: E04S40A17
+
+Processing: E04S40A18
+
+Processing: E04S40A19
+
+Processing: E04S40A20
+
+Processing: E04S40A21
+
+Processing: E04S40A22
+
+Processing: E04S40A23
+
+Processing: E04S40A24
+
+Processing: E04S40A25
+
+Processing: E04S40A26
+
+Processing: E04S40A27
+
+Completed! Processed 1075 new experiments, skipped 5 existing
+
+============================================================
+Processing completed!
+Results saved to: /research/cbim/vast/sf895/code/wsg/output/MMFi_Dataset_results/frame_captions.csv
+============================================================
